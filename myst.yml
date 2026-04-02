@@ -1,0 +1,15 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 5e98fc5f-e8e1-4b49-9d4c-5dceede54280
+  # title: oqapi Tutorial
+  # description: How to use the ohsome quality API to deploy all indicators via code 
+  # keywords: []
+  # authors: []
+  # github:
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
