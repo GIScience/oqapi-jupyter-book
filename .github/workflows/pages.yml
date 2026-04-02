@@ -5,6 +5,10 @@ on:
     branches:
       - main
 
+env:
+  BASE_URL: "/oqapi-jupyter-book"
+  HOST: "127.0.0.1"
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -28,7 +32,7 @@ jobs:
           cd src
           set +o pipefail
           yes | uv run jupyter book clean
-          uv run jupyter book build --ci --keep-host
+          uv run jupyter book build --ci --html --keep-host
           cd ..
 
       - name: Prepare GitHub Pages folder
