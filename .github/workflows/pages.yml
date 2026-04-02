@@ -1,0 +1,45 @@
+name: Build and deploy book
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: |
+          pip install uv
+          pip install -r requirements.txt || true
+
+      - name: Build Jupyter Book
+        run: |
+          cd src
+          set +o pipefail
+          yes | uv run jupyter book clean
+          uv run jupyter book build --html --ci --keep-host
+          cd ..
+
+      - name: Prepare GitHub Pages folder
+        run: |
+          rm -rf public
+          mkdir -p public
+          cp -r src/_build/html/* public
+          touch public/.nojekyll
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v6
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
