@@ -1,6 +1,6 @@
 import {
   __esm
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/@codemirror/legacy-modes/mode/lua.js
 function prefixRE(words) {
@@ -276,4 +276,4 @@ init_lua();
 export {
   lua
 };
-//# sourceMappingURL=/build/_shared/lua-ERIRGESW.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/lua-ERIRGESW.js.map

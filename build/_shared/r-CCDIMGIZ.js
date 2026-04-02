@@ -1,6 +1,6 @@
 import {
   __esm
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/@codemirror/legacy-modes/mode/r.js
 function wordObj(words) {
@@ -207,4 +207,4 @@ init_r();
 export {
   r
 };
-//# sourceMappingURL=/build/_shared/r-CCDIMGIZ.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/r-CCDIMGIZ.js.map

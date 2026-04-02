@@ -1,6 +1,6 @@
 import {
   require_smali
-} from "/build/_shared/chunk-MZRYG74R.js";
-import "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-MZRYG74R.js";
+import "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 export default require_smali();
-//# sourceMappingURL=/build/_shared/smali-YSVVIU32.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/smali-YSVVIU32.js.map

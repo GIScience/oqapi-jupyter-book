@@ -1,6 +1,6 @@
 import {
   __commonJS
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/highlight.js/lib/languages/livecodeserver.js
 var require_livecodeserver = __commonJS({
@@ -117,4 +117,4 @@ var require_livecodeserver = __commonJS({
   }
 });
 export default require_livecodeserver();
-//# sourceMappingURL=/build/_shared/livecodeserver-MSL75AYE.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/livecodeserver-MSL75AYE.js.map

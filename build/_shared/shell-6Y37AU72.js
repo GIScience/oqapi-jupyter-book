@@ -1,6 +1,6 @@
 import {
   __commonJS
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/highlight.js/lib/languages/shell.js
 var require_shell = __commonJS({
@@ -28,4 +28,4 @@ var require_shell = __commonJS({
   }
 });
 export default require_shell();
-//# sourceMappingURL=/build/_shared/shell-6Y37AU72.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/shell-6Y37AU72.js.map

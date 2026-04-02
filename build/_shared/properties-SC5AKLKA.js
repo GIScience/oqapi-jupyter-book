@@ -1,6 +1,6 @@
 import {
   __esm
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/@codemirror/legacy-modes/mode/properties.js
 var properties;
@@ -67,4 +67,4 @@ init_properties();
 export {
   properties
 };
-//# sourceMappingURL=/build/_shared/properties-SC5AKLKA.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/properties-SC5AKLKA.js.map

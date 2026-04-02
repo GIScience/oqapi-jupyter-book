@@ -1,9 +1,9 @@
 import {
   require_markup_templating
-} from "/build/_shared/chunk-E6QZW6U4.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-E6QZW6U4.js";
 import {
   __commonJS
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/refractor/lang/soy.js
 var require_soy = __commonJS({
@@ -112,4 +112,4 @@ var require_soy = __commonJS({
 export {
   require_soy
 };
-//# sourceMappingURL=/build/_shared/chunk-KYKO33TC.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/chunk-KYKO33TC.js.map

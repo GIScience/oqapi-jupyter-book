@@ -1,6 +1,6 @@
 import {
   __esm
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/@codemirror/legacy-modes/mode/sql.js
 function sql(parserConfig) {
@@ -382,4 +382,4 @@ export {
   sqlite,
   standardSQL
 };
-//# sourceMappingURL=/build/_shared/sql-EEMHUQ55.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/sql-EEMHUQ55.js.map

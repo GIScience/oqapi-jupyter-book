@@ -1,6 +1,6 @@
 import {
   __commonJS
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/highlight.js/lib/languages/taggerscript.js
 var require_taggerscript = __commonJS({
@@ -51,4 +51,4 @@ var require_taggerscript = __commonJS({
   }
 });
 export default require_taggerscript();
-//# sourceMappingURL=/build/_shared/taggerscript-M2XFEJXS.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/taggerscript-M2XFEJXS.js.map

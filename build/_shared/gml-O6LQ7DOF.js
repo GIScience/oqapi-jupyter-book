@@ -1,6 +1,6 @@
 import {
   __commonJS
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/highlight.js/lib/languages/gml.js
 var require_gml = __commonJS({
@@ -30,4 +30,4 @@ var require_gml = __commonJS({
   }
 });
 export default require_gml();
-//# sourceMappingURL=/build/_shared/gml-O6LQ7DOF.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/gml-O6LQ7DOF.js.map

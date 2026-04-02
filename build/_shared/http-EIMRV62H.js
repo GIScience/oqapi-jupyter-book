@@ -1,6 +1,6 @@
 import {
   __esm
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/@codemirror/legacy-modes/mode/http.js
 function failFirstLine(stream, state) {
@@ -90,4 +90,4 @@ init_http();
 export {
   http
 };
-//# sourceMappingURL=/build/_shared/http-EIMRV62H.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/http-EIMRV62H.js.map

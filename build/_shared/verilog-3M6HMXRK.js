@@ -1,6 +1,6 @@
 import {
   __commonJS
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/highlight.js/lib/languages/verilog.js
 var require_verilog = __commonJS({
@@ -70,4 +70,4 @@ var require_verilog = __commonJS({
   }
 });
 export default require_verilog();
-//# sourceMappingURL=/build/_shared/verilog-3M6HMXRK.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/verilog-3M6HMXRK.js.map

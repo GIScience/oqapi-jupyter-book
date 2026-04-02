@@ -1,6 +1,6 @@
 import {
   __esm
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/@codemirror/legacy-modes/mode/mathematica.js
 function tokenBase(stream, state) {
@@ -122,4 +122,4 @@ init_mathematica();
 export {
   mathematica
 };
-//# sourceMappingURL=/build/_shared/mathematica-KTVMRBJS.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/mathematica-KTVMRBJS.js.map

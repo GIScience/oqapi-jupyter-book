@@ -1,6 +1,6 @@
 import {
   __commonJS
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/refractor/lang/n4js.js
 var require_n4js = __commonJS({
@@ -28,4 +28,4 @@ var require_n4js = __commonJS({
 export {
   require_n4js
 };
-//# sourceMappingURL=/build/_shared/chunk-WCAF62NI.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/chunk-WCAF62NI.js.map

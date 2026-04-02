@@ -1,6 +1,6 @@
 import {
   require_fsharp
-} from "/build/_shared/chunk-EZSOZP23.js";
-import "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-EZSOZP23.js";
+import "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 export default require_fsharp();
-//# sourceMappingURL=/build/_shared/fsharp-QI7PTYC6.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/fsharp-QI7PTYC6.js.map

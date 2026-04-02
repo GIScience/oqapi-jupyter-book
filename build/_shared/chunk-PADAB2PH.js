@@ -1,12 +1,12 @@
 import {
   require_vbnet
-} from "/build/_shared/chunk-XZPFVGSQ.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-XZPFVGSQ.js";
 import {
   require_t4_templating
-} from "/build/_shared/chunk-VVE4QZ3U.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-VVE4QZ3U.js";
 import {
   __commonJS
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/refractor/lang/t4-vb.js
 var require_t4_vb = __commonJS({
@@ -27,4 +27,4 @@ var require_t4_vb = __commonJS({
 export {
   require_t4_vb
 };
-//# sourceMappingURL=/build/_shared/chunk-PADAB2PH.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/chunk-PADAB2PH.js.map

@@ -1,6 +1,6 @@
 import {
   __commonJS
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/refractor/lang/css-extras.js
 var require_css_extras = __commonJS({
@@ -127,4 +127,4 @@ var require_css_extras = __commonJS({
 export {
   require_css_extras
 };
-//# sourceMappingURL=/build/_shared/chunk-YBZBWUCK.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/chunk-YBZBWUCK.js.map

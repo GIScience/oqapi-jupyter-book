@@ -1,6 +1,6 @@
 import {
   __commonJS
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/refractor/lang/qsharp.js
 var require_qsharp = __commonJS({
@@ -119,4 +119,4 @@ var require_qsharp = __commonJS({
 export {
   require_qsharp
 };
-//# sourceMappingURL=/build/_shared/chunk-J4IK24L5.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/chunk-J4IK24L5.js.map

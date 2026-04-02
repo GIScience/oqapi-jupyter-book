@@ -1,6 +1,6 @@
 import {
   require_apl
-} from "/build/_shared/chunk-RMOGZHQE.js";
-import "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-RMOGZHQE.js";
+import "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 export default require_apl();
-//# sourceMappingURL=/build/_shared/apl-EE3MN76V.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/apl-EE3MN76V.js.map

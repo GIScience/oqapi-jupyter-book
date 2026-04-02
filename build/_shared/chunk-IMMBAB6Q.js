@@ -9,4 +9,4 @@ var SourceFileKind;
 export {
   SourceFileKind
 };
-//# sourceMappingURL=/build/_shared/chunk-IMMBAB6Q.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/chunk-IMMBAB6Q.js.map

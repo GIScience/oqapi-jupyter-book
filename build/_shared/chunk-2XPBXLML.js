@@ -1,6 +1,6 @@
 import {
   __commonJS
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/refractor/lang/r.js
 var require_r = __commonJS({
@@ -38,4 +38,4 @@ var require_r = __commonJS({
 export {
   require_r
 };
-//# sourceMappingURL=/build/_shared/chunk-2XPBXLML.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/chunk-2XPBXLML.js.map

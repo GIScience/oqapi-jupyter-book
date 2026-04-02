@@ -1,6 +1,6 @@
 import {
   __esm
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/lodash-es/_freeGlobal.js
 var freeGlobal, freeGlobal_default;
@@ -1794,4 +1794,4 @@ export {
   merge_default,
   init_merge
 };
-//# sourceMappingURL=/build/_shared/chunk-T7QTAV5N.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/chunk-T7QTAV5N.js.map

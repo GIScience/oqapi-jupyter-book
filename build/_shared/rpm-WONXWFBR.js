@@ -1,6 +1,6 @@
 import {
   __esm
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/@codemirror/legacy-modes/mode/rpm.js
 var headerSeparator, headerLine, simpleEmail, rpmChanges, arch, preamble, section, control_flow_complex, control_flow_simple, operators, rpmSpec;
@@ -118,4 +118,4 @@ export {
   rpmChanges,
   rpmSpec
 };
-//# sourceMappingURL=/build/_shared/rpm-WONXWFBR.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/rpm-WONXWFBR.js.map

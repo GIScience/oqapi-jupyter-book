@@ -1,6 +1,6 @@
 import {
   __commonJS
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/highlight.js/lib/languages/angelscript.js
 var require_angelscript = __commonJS({
@@ -122,4 +122,4 @@ var require_angelscript = __commonJS({
   }
 });
 export default require_angelscript();
-//# sourceMappingURL=/build/_shared/angelscript-J5QT7S4A.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/angelscript-J5QT7S4A.js.map

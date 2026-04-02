@@ -1,6 +1,6 @@
 import {
   __name
-} from "/build/_shared/chunk-7PDOACA3.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-7PDOACA3.js";
 
 // ../../node_modules/mermaid/dist/chunks/mermaid.core/chunk-HN2XXSSU.mjs
 var markerOffsets = {
@@ -157,4 +157,4 @@ export {
   markerOffsets2,
   getLineFunctionsWithOffset
 };
-//# sourceMappingURL=/build/_shared/chunk-SJNWNCJG.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/chunk-SJNWNCJG.js.map

@@ -1,6 +1,6 @@
 import {
   __commonJS
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/refractor/lang/kumir.js
 var require_kumir = __commonJS({
@@ -105,4 +105,4 @@ var require_kumir = __commonJS({
 export {
   require_kumir
 };
-//# sourceMappingURL=/build/_shared/chunk-55TNJROC.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/chunk-55TNJROC.js.map

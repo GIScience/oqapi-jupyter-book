@@ -1,6 +1,6 @@
 import {
   __commonJS
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/refractor/lang/markdown.js
 var require_markdown = __commonJS({
@@ -379,4 +379,4 @@ var require_markdown = __commonJS({
 export {
   require_markdown
 };
-//# sourceMappingURL=/build/_shared/chunk-DSEVLNCF.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/chunk-DSEVLNCF.js.map

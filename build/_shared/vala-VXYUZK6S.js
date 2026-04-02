@@ -1,6 +1,6 @@
 import {
   __commonJS
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/highlight.js/lib/languages/vala.js
 var require_vala = __commonJS({
@@ -49,4 +49,4 @@ var require_vala = __commonJS({
   }
 });
 export default require_vala();
-//# sourceMappingURL=/build/_shared/vala-VXYUZK6S.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/vala-VXYUZK6S.js.map

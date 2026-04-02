@@ -1,6 +1,6 @@
 import {
   __esm
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/@codemirror/legacy-modes/mode/css.js
 function mkCSS(parserConfig) {
@@ -1839,4 +1839,4 @@ export {
   mkCSS,
   sCSS
 };
-//# sourceMappingURL=/build/_shared/css-FYV36AOE.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/css-FYV36AOE.js.map

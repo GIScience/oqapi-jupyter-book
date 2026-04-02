@@ -1,6 +1,6 @@
 import {
   __commonJS
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/highlight.js/lib/languages/erlang.js
 var require_erlang = __commonJS({
@@ -190,4 +190,4 @@ var require_erlang = __commonJS({
   }
 });
 export default require_erlang();
-//# sourceMappingURL=/build/_shared/erlang-NOUNQZUB.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/erlang-NOUNQZUB.js.map

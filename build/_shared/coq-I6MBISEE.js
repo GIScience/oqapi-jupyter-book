@@ -1,6 +1,6 @@
 import {
   __commonJS
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/highlight.js/lib/languages/coq.js
 var require_coq = __commonJS({
@@ -33,4 +33,4 @@ var require_coq = __commonJS({
   }
 });
 export default require_coq();
-//# sourceMappingURL=/build/_shared/coq-I6MBISEE.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/coq-I6MBISEE.js.map

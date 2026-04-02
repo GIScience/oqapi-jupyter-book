@@ -1,7 +1,7 @@
 import {
   require_plsql
-} from "/build/_shared/chunk-G6SSALTZ.js";
-import "/build/_shared/chunk-PY3WXTWD.js";
-import "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-G6SSALTZ.js";
+import "/oqapi-jupyter-book/build/_shared/chunk-PY3WXTWD.js";
+import "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 export default require_plsql();
-//# sourceMappingURL=/build/_shared/plsql-GFORJTJV.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/plsql-GFORJTJV.js.map

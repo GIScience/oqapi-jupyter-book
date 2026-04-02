@@ -1,14 +1,14 @@
 import {
   addCommonDirectiveOptions,
   commonDirectiveOptions
-} from "/build/_shared/chunk-2GZXDR27.js";
-import "/build/_shared/chunk-DOEQHMLC.js";
-import "/build/_shared/chunk-ZNG4DSCS.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-2GZXDR27.js";
+import "/oqapi-jupyter-book/build/_shared/chunk-DOEQHMLC.js";
+import "/oqapi-jupyter-book/build/_shared/chunk-ZNG4DSCS.js";
 import {
   normalizeLabel
-} from "/build/_shared/chunk-Q6DHUCUI.js";
-import "/build/_shared/chunk-LPSXN4QV.js";
-import "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-Q6DHUCUI.js";
+import "/oqapi-jupyter-book/build/_shared/chunk-LPSXN4QV.js";
+import "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/myst-ext-grid/dist/index.js
 function getColumns(columnString) {
@@ -82,4 +82,4 @@ export {
   gridDirectives,
   gridItemDirective
 };
-//# sourceMappingURL=/build/_shared/dist-GWMOJ7IX.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/dist-GWMOJ7IX.js.map

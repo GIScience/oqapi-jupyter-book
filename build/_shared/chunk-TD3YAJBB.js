@@ -1,6 +1,6 @@
 import {
   __commonJS
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/refractor/lang/csp.js
 var require_csp = __commonJS({
@@ -74,4 +74,4 @@ var require_csp = __commonJS({
 export {
   require_csp
 };
-//# sourceMappingURL=/build/_shared/chunk-TD3YAJBB.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/chunk-TD3YAJBB.js.map

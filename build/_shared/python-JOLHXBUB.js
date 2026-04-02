@@ -1,6 +1,6 @@
 import {
   __esm
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/@codemirror/legacy-modes/mode/python.js
 function wordRegexp(words2) {
@@ -459,4 +459,4 @@ export {
   mkPython,
   python
 };
-//# sourceMappingURL=/build/_shared/python-JOLHXBUB.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/python-JOLHXBUB.js.map

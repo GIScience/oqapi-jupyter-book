@@ -1,6 +1,6 @@
 import {
   __esm
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/@codemirror/legacy-modes/mode/perl.js
 function look(stream, c) {
@@ -1114,4 +1114,4 @@ init_perl();
 export {
   perl
 };
-//# sourceMappingURL=/build/_shared/perl-ACC5MR7G.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/perl-ACC5MR7G.js.map

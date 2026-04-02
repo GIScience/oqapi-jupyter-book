@@ -1,6 +1,6 @@
 import {
   require_rust
-} from "/build/_shared/chunk-YJF32COI.js";
-import "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-YJF32COI.js";
+import "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 export default require_rust();
-//# sourceMappingURL=/build/_shared/rust-3T6LUEHU.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/rust-3T6LUEHU.js.map

@@ -1,6 +1,6 @@
 import {
   require_elm
-} from "/build/_shared/chunk-TGKEUV5S.js";
-import "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-TGKEUV5S.js";
+import "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 export default require_elm();
-//# sourceMappingURL=/build/_shared/elm-QPIOG57B.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/elm-QPIOG57B.js.map

@@ -1,6 +1,6 @@
 import {
   __commonJS
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/highlight.js/lib/languages/excel.js
 var require_excel = __commonJS({
@@ -67,4 +67,4 @@ var require_excel = __commonJS({
   }
 });
 export default require_excel();
-//# sourceMappingURL=/build/_shared/excel-DNTMJJF3.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/excel-DNTMJJF3.js.map

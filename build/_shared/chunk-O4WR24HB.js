@@ -1,6 +1,6 @@
 import {
   __commonJS
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/refractor/lang/iecst.js
 var require_iecst = __commonJS({
@@ -48,4 +48,4 @@ var require_iecst = __commonJS({
 export {
   require_iecst
 };
-//# sourceMappingURL=/build/_shared/chunk-O4WR24HB.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/chunk-O4WR24HB.js.map

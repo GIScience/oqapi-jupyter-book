@@ -1,29 +1,29 @@
 import {
   KatexCSS,
   Page
-} from "/build/_shared/chunk-XF6KJEBA.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-XF6KJEBA.js";
 import {
   getMetaTagsForArticle,
   require_loaders
-} from "/build/_shared/chunk-QYHIDYQN.js";
-import "/build/_shared/chunk-IW6XPN43.js";
-import "/build/_shared/chunk-ZNGG4FXY.js";
-import "/build/_shared/chunk-5XJWQ5WJ.js";
-import "/build/_shared/chunk-SP2MKLPW.js";
-import "/build/_shared/chunk-T7QTAV5N.js";
-import "/build/_shared/chunk-2WW6JOYG.js";
-import "/build/_shared/chunk-IMMBAB6Q.js";
-import "/build/_shared/chunk-7SI5XUIQ.js";
-import "/build/_shared/chunk-DOEQHMLC.js";
-import "/build/_shared/chunk-ZNG4DSCS.js";
-import "/build/_shared/chunk-MWXHQG25.js";
-import "/build/_shared/chunk-Q6DHUCUI.js";
-import "/build/_shared/chunk-LPSXN4QV.js";
-import "/build/_shared/chunk-2RVQXRZB.js";
-import "/build/_shared/chunk-3RNZ6DIW.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-QYHIDYQN.js";
+import "/oqapi-jupyter-book/build/_shared/chunk-IW6XPN43.js";
+import "/oqapi-jupyter-book/build/_shared/chunk-ZNGG4FXY.js";
+import "/oqapi-jupyter-book/build/_shared/chunk-5XJWQ5WJ.js";
+import "/oqapi-jupyter-book/build/_shared/chunk-SP2MKLPW.js";
+import "/oqapi-jupyter-book/build/_shared/chunk-T7QTAV5N.js";
+import "/oqapi-jupyter-book/build/_shared/chunk-2WW6JOYG.js";
+import "/oqapi-jupyter-book/build/_shared/chunk-IMMBAB6Q.js";
+import "/oqapi-jupyter-book/build/_shared/chunk-7SI5XUIQ.js";
+import "/oqapi-jupyter-book/build/_shared/chunk-DOEQHMLC.js";
+import "/oqapi-jupyter-book/build/_shared/chunk-ZNG4DSCS.js";
+import "/oqapi-jupyter-book/build/_shared/chunk-MWXHQG25.js";
+import "/oqapi-jupyter-book/build/_shared/chunk-Q6DHUCUI.js";
+import "/oqapi-jupyter-book/build/_shared/chunk-LPSXN4QV.js";
+import "/oqapi-jupyter-book/build/_shared/chunk-2RVQXRZB.js";
+import "/oqapi-jupyter-book/build/_shared/chunk-3RNZ6DIW.js";
 import {
   __toESM
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // app/routes/_index.tsx
 var import_loaders = __toESM(require_loaders());
@@ -50,4 +50,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/routes/_index-ADABXFG6.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/routes/_index-ADABXFG6.js.map

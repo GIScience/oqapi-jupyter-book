@@ -1,6 +1,6 @@
 import {
   __commonJS
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/highlight.js/lib/languages/julia-repl.js
 var require_julia_repl = __commonJS({
@@ -33,4 +33,4 @@ var require_julia_repl = __commonJS({
   }
 });
 export default require_julia_repl();
-//# sourceMappingURL=/build/_shared/julia-repl-FNCWDQ5U.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/julia-repl-FNCWDQ5U.js.map

@@ -1,6 +1,6 @@
 import {
   __esm
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/@codemirror/legacy-modes/mode/dylan.js
 function forEach(arr, f) {
@@ -326,4 +326,4 @@ init_dylan();
 export {
   dylan
 };
-//# sourceMappingURL=/build/_shared/dylan-45ZPDXVM.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/dylan-45ZPDXVM.js.map

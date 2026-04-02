@@ -1,6 +1,6 @@
 import {
   __commonJS
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/refractor/lang/gcode.js
 var require_gcode = __commonJS({
@@ -32,4 +32,4 @@ var require_gcode = __commonJS({
 export {
   require_gcode
 };
-//# sourceMappingURL=/build/_shared/chunk-TFEKMIXV.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/chunk-TFEKMIXV.js.map

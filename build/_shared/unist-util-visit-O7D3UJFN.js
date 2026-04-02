@@ -3,12 +3,12 @@ import {
   EXIT,
   SKIP,
   visit
-} from "/build/_shared/chunk-LPSXN4QV.js";
-import "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-LPSXN4QV.js";
+import "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 export {
   CONTINUE,
   EXIT,
   SKIP,
   visit
 };
-//# sourceMappingURL=/build/_shared/unist-util-visit-O7D3UJFN.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/unist-util-visit-O7D3UJFN.js.map

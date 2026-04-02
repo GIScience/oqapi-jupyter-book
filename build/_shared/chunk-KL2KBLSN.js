@@ -1,6 +1,6 @@
 import {
   __commonJS
-} from "/build/_shared/chunk-CGOEG7L2.js";
+} from "/oqapi-jupyter-book/build/_shared/chunk-CGOEG7L2.js";
 
 // ../../node_modules/refractor/lang/graphql.js
 var require_graphql = __commonJS({
@@ -163,4 +163,4 @@ var require_graphql = __commonJS({
 export {
   require_graphql
 };
-//# sourceMappingURL=/build/_shared/chunk-KL2KBLSN.js.map
+//# sourceMappingURL=/oqapi-jupyter-book/build/_shared/chunk-KL2KBLSN.js.map
