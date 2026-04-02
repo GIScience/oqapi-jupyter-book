@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://localhost:3000/sitemap_style.xsl" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://localhost:3000</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/attribute-completeness</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/building-comparison</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/currentness</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/land-cover-completeness</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/land-cover-thematic-accuracy</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/mapping-saturation</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/road-comparison</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/road-thematic-accuracy</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/topic-definitions</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/user-activity</loc>
+  </url>
+</urlset>
