@@ -6,39 +6,40 @@ on:
       - main
 
 jobs:
-  deploy-book:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
+
     steps:
-      - uses: actions/checkout@v5
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v4
         with:
-          python-version: "3.13"
+          python-version: '3.13'
 
       - name: Install dependencies
         run: |
           pip install uv
-          uv sync || true
+          pip install -r requirements.txt || true
 
-      # Build the book
-      - name: Build the book
+      - name: Build Jupyter Book
         run: |
           cd src
-          uv run jupyter-book build .
+          set +o pipefail
+          yes | uv run jupyter book clean
+          uv run jupyter book build --ci --keep-host
+          cd ..
 
-      # https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow
+      - name: Prepare GitHub Pages folder
+        run: |
+          rm -rf public
+          mkdir -p public
+          cp -r src/_build/html/* public
+          touch public/.nojekyll
 
-      # Upload the book's HTML as an artifact
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: src/_build/html
-
-      # Deploy the book's HTML to GitHub Pages
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
