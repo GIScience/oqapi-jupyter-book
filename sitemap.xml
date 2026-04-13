@@ -29,9 +29,6 @@
     <loc>http://localhost:3000/road-thematic-accuracy</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/topic-definitions</loc>
-  </url>
-  <url>
     <loc>http://localhost:3000/user-activity</loc>
   </url>
 </urlset>
