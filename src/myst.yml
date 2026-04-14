@@ -27,6 +27,7 @@ project:
 site:
   template: book-theme
   logo: content/images/bkg_logo.png
+  css: style.css
   options:
   #   favicon: favicon.ico
      
