@@ -5,6 +5,9 @@
     <loc>http://localhost:3000</loc>
   </url>
   <url>
+    <loc>http://localhost:3000/ohsome-dashboard</loc>
+  </url>
+  <url>
     <loc>http://localhost:3000/attribute-completeness</loc>
   </url>
   <url>
@@ -30,5 +33,17 @@
   </url>
   <url>
     <loc>http://localhost:3000/user-activity</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/coding-exercise</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/level-1</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/level-2</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/level-3</loc>
   </url>
 </urlset>
