@@ -5,6 +5,7 @@ On this page, you find a simple overview on how to navigate the [ohsome Dashboar
 On the upper left tab, you can choose between the OSM History Stats and OSM Quality Analyses.
 The History Stats gives you an insight into the eventful history of OSM data for any region and time period you are interested in.
 The Quality Analyses offer many different qualitiy indicators you can use to validate OSM data for your area of interes.
+
 ![tabs](content/images/tabs.png)
 
 ## OSM Quality Analyses
@@ -16,6 +17,7 @@ At the left window, navigate to *OSM Quality Analysis*.
 Under "Topic" you find a drop down menu. Open it and get familiar with all the topics you can chose from.
 Select the topic you want to explore.
 The OSM dashboard will automatically create the appropriate OSM filter regarding on the selected topic.
+
 ![topic](content/images/topic.png)
 
 ### Area of Interest
@@ -45,4 +47,5 @@ Others
 
 Depending on the Topic you chose, you will find the available Quality Indicators to select. Select the once you are interested in and hit the "run query" button to load your figures. 
 If you are running the Attribute Completeness or Road Thematic Accuracy Indicator, you can select certain attributes. For taking advantage of that, activate the indicator and open the drop-down menu to find the set of attributes you can choose from at your Topic. If you choose multiple attributes in one query, it will be presented as one result.
+
 ![quality_indicators](content/images/quality_indicators.png)
