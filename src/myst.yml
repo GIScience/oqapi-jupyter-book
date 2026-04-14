@@ -28,4 +28,4 @@ site:
   template: book-theme
   # options:
   #   favicon: favicon.ico
-  #   logo: site_logo.png
+     logo: content/images/bkg_logo.png
