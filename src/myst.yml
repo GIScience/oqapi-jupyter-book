@@ -33,7 +33,7 @@ project:
     
 site:
   template: book-theme
-  logo: content/images/bkg_logo.png
+  logo: content/images/bkg_heigit_logo.png
   css: style.css
   options:
   #   favicon: favicon.ico
