@@ -44,6 +44,8 @@ jobs:
         run: |
           rm -rf public
           mkdir -p public
+          mkdir -p public/en
+          mkdir -p public/de
           cp -r src/_build/html/* public/en
           cp -r de/_build/html/* public/de
           touch public/.nojekyll
