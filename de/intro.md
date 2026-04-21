@@ -1,10 +1,6 @@
 # OQAPI Jupyter Book
 
-Welcome to the ohsome Dashboard tutorial! Here you find explanations and user guidlines to get the all the information about the OpenStreetMap (OSM) database you need for any project.
+Willkommen zum ohsome Dashboard Tutorial! 
 
-OpenStreetMap is a rich source of user-generated, freely available geospatial data for many applications. However, varying data quality and a lack of standardization can make it challenging to use. We developed the ohsome Dashboard for you to assess OSM data quality globally or for specific areas and helping you determine if it meets your project needs.
-
-The ohsome dashboard enables analysis of OSM data with full version history, no programming required. It generates statistics and visualizes them directly, with customizable filters and groupings by tags, types, region, and time. The ohsome Quality API (OQAPI) provides access to OSM data quality information for specific regions and use cases.
-
-This tutorial was created with collaboration of [Bundesamt für Kartographie und Geodäsie (BKG)](https://www.bkg.bund.de/DE/Home/home.html).
+Hier findest du Erklärungen und Anleitungen, um alle Informationen aus der OpenStreetMap (OSM)-Datenbank zu erhalten, die du für jedes Projekt benötigst.OpenStreetMap ist eine umfangreiche Quelle nutzergenerierter, frei verfügbarer Geodaten für viele Anwendungen. Allerdings können unterschiedliche Datenqualität und fehlende Standardisierung die Nutzung erschweren. Deshalb haben wir das ohsome Dashboard entwickelt, damit du die Qualität der OSM-Daten weltweit oder für bestimmte Gebiete bewerten kannst und feststellen kannst, ob sie den Anforderungen deines Projekts entsprechen.Das ohsome Dashboard ermöglicht die Analyse von OSM-Daten mit vollständiger Versionshistorie – ganz ohne Programmierkenntnisse. Es erstellt Statistiken und visualisiert diese direkt, mit anpassbaren Filtern und Gruppierungen nach Tags, Typen, Regionen und Zeit. Die ohsome Quality API (OQAPI) bietet Zugriff auf Informationen zur Qualität von OSM-Daten für spezifische Regionen und Anwendungsfälle.Dieses Tutorial wurde in Zusammenarbeit mit [Bundesamt für Kartographie und Geodäsie (BKG)](https://www.bkg.bund.de/DE/Home/home.html) erstellt.
 
