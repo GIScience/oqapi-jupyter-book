@@ -36,5 +36,9 @@ site:
   logo: ../images/bkg_heigit_logo.png
   css: style.css
   options:
+    locales:
+      - en
+      - de
+      - fr
   #   favicon: favicon.ico
      

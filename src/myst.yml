@@ -35,6 +35,8 @@ site:
   template: book-theme
   logo: ../images/bkg_heigit_logo.png
   css: style.css
-  options:
+  locales:
+    - en
+    - de
   #   favicon: favicon.ico
      
