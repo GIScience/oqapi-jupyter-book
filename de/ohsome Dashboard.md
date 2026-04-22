@@ -6,7 +6,7 @@ Im oberen linken Tab kannst du zwischen den OSM History Stats und den OSM Qualit
 Die History Stats geben dir Einblicke in die ereignisreiche Entwicklung der OSM-Daten für jede Region und jeden Zeitraum, der dich interessiert.
 Die Quality Analyses bieten viele verschiedene Qualitätsindikatoren, mit denen du OSM-Daten für dein Interessensgebiet validieren kannst.
 
-![tabs](../images/tabs.png)
+![tabs](abbildungen/tabs_deutsch.png)
 
 ## OSM Quality Analyses
 
@@ -18,7 +18,7 @@ Unter „Topic“ findest du ein Dropdown-Menü. Öffne es und mache dich mit al
 Wähle das Topic aus, das du untersuchen möchtest.
 Das OSM-Dashboard erstellt automatisch den passenden OSM-Filter basierend auf dem ausgewählten Topic.
 
-![topic](../images/topic.png)
+![topic](abbildungen/topics_deutsch.png)
 
 ### Area of Interest
 
@@ -48,4 +48,4 @@ Sonstiges
 Abhängig vom gewählten Topic findest du die verfügbaren Qualitätsindikatoren zur Auswahl. Wähle die aus, die dich interessieren, und klicke auf den „run query“-Button, um deine Ergebnisse zu laden. 
 Wenn du den Indikator Attributvollständigkeit oder Thematische Genauigkeit der Straßen verwendest, kannst du bestimmte Attribute auswählen. Um dies zu nutzen, aktiviere den Indikator und öffne das Dropdown-Menü, um die für dein Topic verfügbaren Attribute zu sehen. Wenn du mehrere Attribute in einer Abfrage auswählst, werden sie als ein gemeinsames Ergebnis dargestellt.
 
-![quality_indicators](../images/quality_indicators.png)
+![quality_indicators](abbildungen/Indikatoren_Ausahl.png)
