@@ -1,10 +1,10 @@
 # Dashboard Usage
-On this page, you find a simple overview on how to navigate the [ohsome Dashboard](https://dashboard.ohsome.org/en/#backend=ohsomeApi&groupBy=none&time=%2F2026-02-19T12%3A00Z%2FP1M&key=natural&value=tree&types=node&measure=count). 
+Auf dieser Seite findest du eine einfache Übersicht darüber, wie du im [ohsome Dashboard](https://dashboard.ohsome.org/en/#backend=ohsomeApi&groupBy=none&time=%2F2026-02-19T12%3A00Z%2FP1M&key=natural&value=tree&types=node&measure=count) navigierst. 
 
-## Let's start with the Basics!
-On the upper left tab, you can choose between the OSM History Stats and OSM Quality Analyses.
-The History Stats gives you an insight into the eventful history of OSM data for any region and time period you are interested in.
-The Quality Analyses offer many different qualitiy indicators you can use to validate OSM data for your area of interes.
+## Lass uns mit den Grundlagen beginnen!
+Im oberen linken Tab kannst du zwischen den OSM History Stats und den OSM Quality Analyses wählen.
+Die History Stats geben dir Einblicke in die ereignisreiche Entwicklung der OSM-Daten für jede Region und jeden Zeitraum, der dich interessiert.
+Die Quality Analyses bieten viele verschiedene Qualitätsindikatoren, mit denen du OSM-Daten für dein Interessensgebiet validieren kannst.
 
 ![tabs](../images/tabs.png)
 
@@ -12,40 +12,40 @@ The Quality Analyses offer many different qualitiy indicators you can use to val
 
 ### Topic
 
-Topics are defined by a set of OSM Tags and Keys that match a certain object. 
-At the left window, navigate to *OSM Quality Analysis*.
-Under "Topic" you find a drop down menu. Open it and get familiar with all the topics you can chose from.
-Select the topic you want to explore.
-The OSM dashboard will automatically create the appropriate OSM filter regarding on the selected topic.
+Topics werden durch eine Menge von OSM-Tags und -Keys definiert, die einem bestimmten Objekt entsprechen. 
+Im linken Fenster navigierst du zu *OSM Quality Analysis*.
+Unter „Topic“ findest du ein Dropdown-Menü. Öffne es und mache dich mit allen verfügbaren Topics vertraut.
+Wähle das Topic aus, das du untersuchen möchtest.
+Das OSM-Dashboard erstellt automatisch den passenden OSM-Filter basierend auf dem ausgewählten Topic.
 
 ![topic](../images/topic.png)
 
 ### Area of Interest
 
-Choose your area of interest on the map on the right window. You can choose along governmental boundaries or self defined bounding boxes. Zoom in to catch a more precice border for your area of interest.
-You can run queries for multiple regions at a time. Just click at multiple areas and remove them with another click, or close the blue box under the map.
+Wähle dein Interessensgebiet auf der Karte im rechten Fenster aus. Du kannst entlang von Verwaltungsgrenzen oder mit selbst definierten Bounding Boxes auswählen. Zoome hinein, um eine genauere Abgrenzung deines Interessensgebiets zu erhalten.
+Du kannst Abfragen für mehrere Regionen gleichzeitig ausführen. Klicke einfach auf mehrere Gebiete und entferne sie mit einem weiteren Klick oder schließe die blaue Box unter der Karte.
 
 ![area_of_interest](../images/area_of_interest.png)
 
 ### Quality Indicators
-Here you can analyse OSM data along multiple Quality Dimensions:
-**Quality Dimensions**
-Completeness
-- Mapping Saturation
-- Attribute Completeness
-- Building Comparison
-- Land Cover Completeness
-- Road Comparison
-Currentness
-- Currentness
-Thematic Accuracy
-- Land Cover Thematic Accuracy
-- Road Thematic Accuracy
-Others
-- User Activity
+Hier kannst du OSM-Daten anhand mehrerer Qualitätsdimensionen analysieren:
+**Qualitätsdimensionen**
+Vollständigkeit
+- Mapping Sättigung
+- Attributvollständigkeit
+- Gebäudevergleich
+- Landbedeckungsvollständigkeit
+- Straßenvergleich
+Aktualität
+- Aktualität
+Thematische Genauigkeit
+- Thematische Genauigkeit der Landbedeckung
+- Thematische Genauigkeit der Straßen
+Sonstiges
+- Nutzeraktivität
 
 
-Depending on the Topic you chose, you will find the available Quality Indicators to select. Select the once you are interested in and hit the "run query" button to load your figures. 
-If you are running the Attribute Completeness or Road Thematic Accuracy Indicator, you can select certain attributes. For taking advantage of that, activate the indicator and open the drop-down menu to find the set of attributes you can choose from at your Topic. If you choose multiple attributes in one query, it will be presented as one result.
+Abhängig vom gewählten Topic findest du die verfügbaren Qualitätsindikatoren zur Auswahl. Wähle die aus, die dich interessieren, und klicke auf den „run query“-Button, um deine Ergebnisse zu laden. 
+Wenn du den Indikator Attributvollständigkeit oder Thematische Genauigkeit der Straßen verwendest, kannst du bestimmte Attribute auswählen. Um dies zu nutzen, aktiviere den Indikator und öffne das Dropdown-Menü, um die für dein Topic verfügbaren Attribute zu sehen. Wenn du mehrere Attribute in einer Abfrage auswählst, werden sie als ein gemeinsames Ergebnis dargestellt.
 
 ![quality_indicators](../images/quality_indicators.png)
