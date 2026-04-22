@@ -1,4 +1,4 @@
-# OQAPI Jupyter Book
+# OQAPI-Buch
 
 Willkommen zum ohsome Dashboard Tutorial! 
 
