@@ -25,7 +25,7 @@ Das OSM-Dashboard erstellt automatisch den passenden OSM-Filter basierend auf de
 Wähle dein Interessensgebiet auf der Karte im rechten Fenster aus. Du kannst entlang von Verwaltungsgrenzen oder mit selbst definierten Bounding Boxes auswählen. Zoome hinein, um eine genauere Abgrenzung deines Interessensgebiets zu erhalten.
 Du kannst Abfragen für mehrere Regionen gleichzeitig ausführen. Klicke einfach auf mehrere Gebiete und entferne sie mit einem weiteren Klick oder schließe die blaue Box unter der Karte.
 
-![area_of_interest](../images/area_of_interest.png)
+![area_of_interest](abbildungen/Untersuchungsgebiet_Auswahlkarte.png)
 
 ### Quality Indicators
 Hier kannst du OSM-Daten anhand mehrerer Qualitätsdimensionen analysieren:
