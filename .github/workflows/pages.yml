@@ -29,25 +29,16 @@ jobs:
 
       - name: Build Jupyter Book
         run: |
-          cd src
-          set +o pipefail
-          yes | uv run jupyter book clean
-          uv run jupyter book build --ci --html --keep-host
-          cd ..
           cd de
           set +o pipefail
           yes | uv run jupyter book clean
           uv run jupyter book build --ci --html --keep-host
-          cd ..
 
       - name: Prepare GitHub Pages folder
         run: |
           rm -rf public
           mkdir -p public
-          mkdir -p public/en
-          mkdir -p public/de
-          cp -r src/_build/html/* public/en
-          cp -r de/_build/html/* public/de
+          cp -r de/_build/html/* public
           touch public/.nojekyll
 
       - name: Deploy to GitHub Pages
