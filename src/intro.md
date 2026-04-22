@@ -1,4 +1,4 @@
-# OQAPI Jupyter Book
+# OQAPI Book
 
 Welcome to the ohsome Dashboard tutorial! Here you find explanations and user guidlines to get the all the information about the OpenStreetMap (OSM) database you need for any project.
 
