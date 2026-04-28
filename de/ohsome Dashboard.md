@@ -22,7 +22,7 @@ Das OSM-Dashboard erstellt automatisch den passenden OSM-Filter basierend auf de
 
 ![topic](abbildungen/topics_deutsch.png)
 
-### Area of Interest
+### Untersuchungsgebiet
 
 Wähle dein Interessensgebiet auf der Karte im rechten Fenster aus. Du kannst entlang von Verwaltungsgrenzen oder mit selbst definierten Rahmen auswählen. Zoome hinein, um eine genauere Abgrenzung deines Interessensgebiets zu erhalten.
 Du kannst Abfragen für mehrere Regionen gleichzeitig ausführen. Klicke einfach auf mehrere Gebiete und entferne sie mit einem weiteren Klick oder schließe die blaue Box unter der Karte.
