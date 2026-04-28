@@ -1,6 +1,6 @@
 # Themadefinitionen
 
-Ein Thema beschreibt die Anfrage, die an die [ohsome API](https://api.ohsome.org) gestellt werden soll. Jedes Thema steht für eine bestimmte Menge von Objekten, aggregierten Informationen oder Nutzerstatistiken, die aus der OpenStreetMap-Datenbank abgeleitet werden. Jedes Thema wird durch den ohsome API `endpoint`, einen `aggregation_type` und den Parameter `filter` definiert. Zusätzlich besitzt jedes Thema einen Schlüssel (Key), einen Namen, eine Beschreibung, eine Liste gültiger Indikatoren sowie eine Liste von Projekten, zu denen das Thema gehört. Themen-Voreinstellungen werden als YAML-Datei unter `ohsome_quality_api/topics/presets.yaml` gespeichert.
+Ein Thema beschreibt die Anfrage, die an die [ohsome API](https://api.ohsome.org) gestellt werden soll. Jedes Thema steht für eine bestimmte Menge von Objekten, aggregierten Informationen oder Nutzerstatistiken, die aus der OpenStreetMap-Datenbank abgeleitet werden. Jedes Thema wird durch den ohsome API _endpoint_, einen _aggregation_type_ und den Parameter _filter_ definiert. Zusätzlich besitzt jedes Thema einen Schlüssel (Key), einen Namen, eine Beschreibung, eine Liste gültiger Indikatoren sowie eine Liste von Projekten, zu denen das Thema gehört. Themen-Voreinstellungen werden als YAML-Datei unter _ohsome_quality_api/topics/presets.yaml_ gespeichert.
 
 Wenn Sie im Dashboard ein Thema auswählen, erscheinen darunter automatisch alle verfügbaren Indikatoren.
 
