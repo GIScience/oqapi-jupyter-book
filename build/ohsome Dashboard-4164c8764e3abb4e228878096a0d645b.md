@@ -16,7 +16,7 @@ Hier findest du drei Schaltflächen, auf denen du deine Qualitätsanalyse vorber
 ### Thema
 
 *Themen* (auch Topics genannt) werden durch eine Menge von OSM-Kennzeichnungen und OSM-Schlüssel definiert, die einem bestimmten Objekt entsprechen. 
-Im Bereich *Topic* findest du ein Dropdown-Menü. Öffne es und mache dich mit allen verfügbaren Topics vertraut. Klickst du in das Eingabefeld, kannst du auch nach Themen suchen.
+Im Bereich *Themen* findest du ein Dropdown-Menü. Öffne es und mache dich mit allen verfügbaren Themen vertraut. Klickst du in das Eingabefeld, kannst du auch nach Themen suchen.
 Wähle das *Thema* aus, das du untersuchen möchtest.
 Das OSM-Dashboard erstellt automatisch den passenden OSM-Filter basierend auf dem ausgewählten *Thema*.
 
@@ -29,7 +29,7 @@ Du kannst Abfragen für mehrere Regionen gleichzeitig ausführen. Klicke einfach
 
 ![area_of_interest](abbildungen/Untersuchungsgebiet_Auswahlkarte.png)
 
-### Quality Indicators
+### Qualitätsindikatoren
 Hier kannst du OSM-Daten anhand mehrerer Qualitätsdimensionen analysieren:
 
 **Vollständigkeit**
