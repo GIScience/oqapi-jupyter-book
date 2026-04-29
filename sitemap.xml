@@ -8,25 +8,25 @@
     <loc>http://localhost:3000/ohsome-dashboard</loc>
   </url>
   <url>
+    <loc>http://localhost:3000/mapping-saturation</loc>
+  </url>
+  <url>
     <loc>http://localhost:3000/attribute-completeness</loc>
   </url>
   <url>
     <loc>http://localhost:3000/building-comparison</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/currentness</loc>
-  </url>
-  <url>
     <loc>http://localhost:3000/land-cover-completeness</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/land-cover-thematic-accuracy</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/mapping-saturation</loc>
-  </url>
-  <url>
     <loc>http://localhost:3000/road-comparison</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/currentness</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/land-cover-thematic-accuracy</loc>
   </url>
   <url>
     <loc>http://localhost:3000/road-thematic-accuracy</loc>
