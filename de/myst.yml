@@ -14,15 +14,23 @@ project:
     - file: ohsome Dashboard.md
     - title: Indikatoren
       children:
-        - file: content/attribute_completeness.ipynb
-        - file: content/building_comparison.ipynb
-        - file: content/currentness.ipynb
-        - file: content/land_cover_completeness.ipynb
-        - file: content/land_cover_thematic_accuracy.ipynb
-        - file: content/mapping_saturation.ipynb
-        - file: content/road_comparison.ipynb
-        - file: content/road_thematic_accuracy.ipynb
-        - file: content/user_activity.ipynb
+      - title: Vollständigkeit
+        children:
+          - file: content/mapping_saturation.ipynb
+          - file: content/attribute_completeness.ipynb
+          - file: content/building_comparison.ipynb
+          - file: content/land_cover_completeness.ipynb
+          - file: content/road_comparison.ipynb
+      - title: Aktualität
+        children:
+          - file: content/currentness.ipynb
+      - title: Thematische Genauigkeit
+        children:
+          - file: content/land_cover_thematic_accuracy.ipynb
+          - file: content/road_thematic_accuracy.ipynb
+      - title: Sonstiges
+        children:
+          - file: content/user_activity.ipynb
     - file: content/topics.md
     - title: Exercises
       children:
