@@ -8,9 +8,6 @@
     <loc>http://localhost:3000/ohsome-dashboard</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/mapping-saturation</loc>
-  </url>
-  <url>
     <loc>http://localhost:3000/attribute-completeness</loc>
   </url>
   <url>
@@ -18,6 +15,9 @@
   </url>
   <url>
     <loc>http://localhost:3000/land-cover-completeness</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/mapping-saturation</loc>
   </url>
   <url>
     <loc>http://localhost:3000/road-comparison</loc>
