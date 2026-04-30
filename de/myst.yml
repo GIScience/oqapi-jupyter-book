@@ -16,10 +16,10 @@ project:
       children:
       - title: Vollständigkeit
         children:
-          - file: content/mapping_saturation.ipynb
           - file: content/attribute_completeness.ipynb
           - file: content/building_comparison.ipynb
           - file: content/land_cover_completeness.ipynb
+          - file: content/mapping_saturation.ipynb
           - file: content/road_comparison.ipynb
       - title: Aktualität
         children:
