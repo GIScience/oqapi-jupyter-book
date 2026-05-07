@@ -7,7 +7,7 @@ Development is done with `uv`:
 ```bash
 uv sync
 cd de
-uv run hupyter-book build
+uv run jupyter-book build
 ```
 
 Deployment is done with Github pages.
