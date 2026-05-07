@@ -5,6 +5,9 @@
     <loc>http://localhost:3000</loc>
   </url>
   <url>
+    <loc>http://localhost:3000/examples</loc>
+  </url>
+  <url>
     <loc>http://localhost:3000/ohsome-dashboard</loc>
   </url>
   <url>

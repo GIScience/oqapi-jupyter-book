@@ -7,7 +7,7 @@ Im oberen linken Reiter kannst du zwischen den *OSM-Zeitreihen* und den *OSM-Qua
 Die *Zeitreihen* geben dir Einblicke in die ereignisreiche Entwicklung der OSM-Daten für jede Region und jeden Zeitraum, der dich interessiert.
 Die *Qualitätsanalysen* bieten viele verschiedene Qualitätsindikatoren, mit denen du OSM-Daten für dein Interessensgebiet validieren kannst.
 
-![tabs](abbildungen/tabs_deutsch.png)
+![tabs](../abbildungen/tabs_deutsch.png)
 
 ## OSM-Qualitätsanalysen
 Klicke oben links auf den Reiter *OSM-Qualitätsanalysen* um das Dashboard umzustellen. 
@@ -20,14 +20,14 @@ Im Bereich *Themen* findest du ein Dropdown-Menü. Öffne es und mache dich mit 
 Wähle das *Thema* aus, das du untersuchen möchtest.
 Das OSM-Dashboard erstellt automatisch den passenden OSM-Filter basierend auf dem ausgewählten *Thema*.
 
-![topic](abbildungen/topics_deutsch.png)
+![topic](../abbildungen/topics_deutsch.png)
 
 ### Untersuchungsgebiet
 
 Wähle dein Interessensgebiet auf der Karte im rechten Fenster aus. Du kannst entlang von Verwaltungsgrenzen oder mit selbst definierten Rahmen auswählen. Zoome hinein, um eine genauere Abgrenzung deines Interessensgebiets zu erhalten.
 Du kannst Abfragen für mehrere Regionen gleichzeitig ausführen. Klicke einfach auf mehrere Gebiete und entferne sie mit einem weiteren Klick oder schließe die blaue Box unter der Karte.
 
-![area_of_interest](abbildungen/Untersuchungsgebiet_Auswahlkarte.png)
+![area_of_interest](../abbildungen/Untersuchungsgebiet_Auswahlkarte.png)
 
 ### Qualitätsindikatoren
 Hier kannst du OSM-Daten anhand mehrerer Qualitätsdimensionen analysieren:
@@ -53,4 +53,4 @@ Hier kannst du OSM-Daten anhand mehrerer Qualitätsdimensionen analysieren:
 Abhängig von deinem gewählten *Thema* findest du die verfügbaren Qualitätsindikatoren zur Auswahl. Wähle die aus, die dich interessieren und klicke auf *Abfrage starten*, um deine Ergebnisse zu laden. 
 Wenn du den Indikator Attributvollständigkeit oder Thematische Genauigkeit der Straßen verwendest, kannst du bestimmte Attribute auswählen. Um dies zu nutzen, aktiviere den Indikator und öffne das Dropdown-Menü, um die für dein *Thema* verfügbaren Attribute zu sehen. Wenn du mehrere Attribute in einer Abfrage auswählst, werden sie als ein gemeinsames Ergebnis dargestellt.
 
-![quality_indicators](abbildungen/Indikatoren_Ausahl.png)
+![quality_indicators](../abbildungen/Indikatoren_Ausahl.png)
