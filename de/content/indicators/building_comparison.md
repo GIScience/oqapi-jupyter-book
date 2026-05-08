@@ -48,6 +48,4 @@ Ein Ergebnis wird berechnet, wenn mindestens 50 % deines ausgewählten Gebiets d
 
 Die folgende Abbildung zeigt den Gebäudevergleich-Indikator für Las Palmas, wo EUBUCCO einen größeren Teil der Inseln abdeckt als Microsoft Buildings. Für den Vergleich werden nur OSM-Gebäudegrundrisse berücksichtigt, die sich innerhalb des durch den Referenzdatensatz abgedeckten Bereichs befinden. Dadurch wird die gesamte OSM-Gebäudefläche im Vergleich mit Microsoft Buildings kleiner dargestellt als im Vergleich mit EUBUCCO.
 
-<div>
 <img src="../../abbildungen/gebäudevergleich_las_palmas.png" width="700"/>
-</div>
