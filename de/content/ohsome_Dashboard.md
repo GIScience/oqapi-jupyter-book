@@ -1,63 +1,109 @@
 # ohsome Dashboard
 
 Auf dieser Seite findest du eine einfache Übersicht darüber, wie du dich im [ohsome Dashboard](https://dashboard.ohsome.org/en/#backend=ohsomeApi&groupBy=none&time=%2F2026-02-19T12%3A00Z%2FP1M&key=natural&value=tree&types=node&measure=count) zurechtfindest.
-Das Dashboard ist in verschiedene Bereiche aufgeteilt, die unterschiedliche Schritte der Analyse beeinflussen.
+Im oberen linken Reiter kannst du zwischen den *OSM-Zeitreihen* und den *OSM-Qualitätsanalysen* wählen.
+Die *Zeitreihen* geben dir Einblicke in die Entwicklung der OSM-Daten für jede Region und jeden Zeitraum.
+Die *Qualitätsanalysen* bieten viele verschiedene Indikatoren, mit denen du OSM-Daten für dein Interessensgebiet validieren kannst.
 
-
+Klicke oben links auf den Reiter *OSM-Qualitätsanalysen* um das Dashboard umzustellen.
+Das Dashboard ist in verschiedene Bereiche aufgeteilt, die unterschiedliche Schritte der Analyse beeinflussen:
+1. [Thema](#thema)
+2. [Untersuchungsgebiet](#Untersuchungsgebiet)
+3. [Qualitätsindikatoren](#qualit-tsindikatoren)
+4. [Ergebnisse](#Ergebnisse)
 
 ![ohsome Dashboard Overview](../abbildungen/ohsome_dashboard_overview_de.png)
 
+## Thema
 
+Im ersten Schritt, wählst du aus dem Dropdown-Menü das *Thema* aus, das du untersuchen möchtest.
+Klickst du in das Eingabefeld, kannst du auch nach weiteren vordefinierten Themen suchen.
 
-## Lass uns mit den Grundlagen beginnen!
-Im oberen linken Reiter kannst du zwischen den *OSM-Zeitreihen* und den *OSM-Qualitätsanalysen* wählen.
-Die *Zeitreihen* geben dir Einblicke in die ereignisreiche Entwicklung der OSM-Daten für jede Region und jeden Zeitraum, der dich interessiert.
-Die *Qualitätsanalysen* bieten viele verschiedene Qualitätsindikatoren, mit denen du OSM-Daten für dein Interessensgebiet validieren kannst.
-
-![tabs](../abbildungen/tabs_deutsch.png)
-
-## OSM-Qualitätsanalysen
-Klicke oben links auf den Reiter *OSM-Qualitätsanalysen* um das Dashboard umzustellen. 
-Hier findest du drei Schaltflächen, auf denen du deine Qualitätsanalyse vorbereiten kannst.
-
-### Thema
-
-*Themen* (auch Topics genannt) werden durch eine Menge von OSM-Kennzeichnungen und OSM-Schlüssel definiert, die einem bestimmten Objekt entsprechen. 
-Im Bereich *Themen* findest du ein Dropdown-Menü. Öffne es und mache dich mit allen verfügbaren Themen vertraut. Klickst du in das Eingabefeld, kannst du auch nach Themen suchen.
-Wähle das *Thema* aus, das du untersuchen möchtest.
+*Themen* (auch Topics genannt) werden durch eine Menge von OSM Tags definiert, die eine bestimmte Objektart beschreiben.
 Das OSM-Dashboard erstellt automatisch den passenden OSM-Filter basierend auf dem ausgewählten *Thema*.
 
-![topic](../abbildungen/topics_deutsch.png)
+:::{margin} **Beispiel**
+Das Thema *Schulen* ist beispielsweise durch diesen OSM-Tagfilter definiert: ```amenity=school and (type:way or type:node)```
+:::
 
-### Untersuchungsgebiet
+<img src="../abbildungen/topics_deutsch.png" width="300"/>
 
-Wähle dein Interessensgebiet auf der Karte im rechten Fenster aus. Du kannst entlang von Verwaltungsgrenzen oder mit selbst definierten Rahmen auswählen. Zoome hinein, um eine genauere Abgrenzung deines Interessensgebiets zu erhalten.
-Du kannst Abfragen für mehrere Regionen gleichzeitig ausführen. Klicke einfach auf mehrere Gebiete und entferne sie mit einem weiteren Klick oder schließe die blaue Box unter der Karte.
+:::{admonition} Custom Topics
+:class: seealso
+Du kannst *Themen* auch komplett frei definieren, z.B. wenn du nur bestimmte Straßentypen in deiner Analyse betrachten möchtest.
+Wir haben dafür eine eigene Tutorialseite angelegt → [Custom Topics](custom_topics.md)
+:::
 
-![area_of_interest](../abbildungen/Untersuchungsgebiet_Auswahlkarte.png)
 
-### Qualitätsindikatoren
-Hier kannst du OSM-Daten anhand mehrerer Qualitätsdimensionen analysieren:
+## Untersuchungsgebiet
 
-**Vollständigkeit**
+Wähle dein Untersuchungsgebiet auf der Karte im rechten Fenster aus. Du kannst entlang von Verwaltungsgrenzen oder mit selbst definierten Rahmen auswählen. Zoome hinein, um eine genauere Abgrenzung deines Untersuchungsgebiet zu erhalten.
+
+::::{tab-set}
+::: {tab-item} Verwaltungsgrenzen
+Klicke einfach auf ein Gebiet und wähle es so für die Analyse aus.
+Du kannst auch mehrere Regionen gleichzeitig wählen und eine gemeinsame Abfrage für die gesamte Region ausführen. 
+Du kannst Gebiete entfernen, wenn du erneut auf sie klickst oder die blaue Box unter der Karte entfernst.
+
+![area_of_interest](../abbildungen/Untersuchungsgebiet_Auswahlkarte_de.png)
+:::
+
+::: {tab-item} Bounding Box
+Ziehe mit der Maus ein Rechteck auf und definiere eine *Bounding Box*.
+Du kannst diese Bounding Box anschließend auch wieder anpassen oder löschen.
+
+![area_of_interest](../abbildungen/Untersuchungsgebiet_Auswahlkarte_de_bbox.png)
+:::
+::::
+
+
+## Qualitätsindikatoren
+
+Abhängig von deinem gewählten *Thema* findest du die verfügbaren Qualitätsindikatoren zur Auswahl.
+Jeder Indikator wird direkt im ohsome Dahboard kurz beschrieben.
+Eine detaillierte Erläuterung zur Methodik und möglichen Limitationen findest du im nächsten Kapitel.
+
+Du kannst OSM-Daten anhand mehrerer Qualitätsdimensionen analysieren:
+
+:::{dropdown} Vollständigkeit
 - Kartensättigung
 - Attributvollständigkeit
 - Gebäudevergleich
 - Landbedeckungsvollständigkeit
 - Straßenvergleich
+:::
 
-**Aktualität**
+:::{dropdown} Zeitliche Genauigkeit
 - Aktualität
+:::
 
-**Thematische Genauigkeit**
+:::{dropdown} Thematische Genauigkeit
 - Thematische Genauigkeit - Landbedeckung
 - Thematische Genauigkeit - Straßen
+:::
 
-**Sonstiges**
+:::{dropdown} Sonstige
 - Nutzeraktivität
+:::
 
 
-Abhängig von deinem gewählten *Thema* findest du die verfügbaren Qualitätsindikatoren zur Auswahl. Wähle die aus, die dich interessieren und klicke auf *Abfrage starten*, um deine Ergebnisse zu laden. 
-Wenn du den Indikator Attributvollständigkeit oder Thematische Genauigkeit der Straßen verwendest, kannst du bestimmte Attribute auswählen. Um dies zu nutzen, aktiviere den Indikator und öffne das Dropdown-Menü, um die für dein *Thema* verfügbaren Attribute zu sehen. Wenn du mehrere Attribute in einer Abfrage auswählst, werden sie als ein gemeinsames Ergebnis dargestellt.
 
-![quality_indicators](../abbildungen/Indikatoren_Ausahl.png)
+Wähle die aus, die dich interessieren und klicke auf *Abfrage starten*, um die Berechnung deiner Ergebnisse anzustoßen.
+
+<img src="../abbildungen/indikatoren_auswahl_de.png" width="300"/>
+
+## Ergebnisse
+
+Die berechneten Ergebnissen werden nach einigen Sekunden im unteren Fenster als Abbildung geladen.
+Das Ergebnis jedes Indikators wird farblich in drei Kategorien eingestuft: in der Regel grün (gut), gelb (mittel) und rot (schlecht). Die Einstufung wird anhand von wenigen Sätzen erläutert.
+
+![ergebnisse](../abbildungen/ohsome_dashboard_ergebnisse_de.png)
+
+
+:::{margin} **Ergebnisse teilen**
+Du kannst deine Ergebnisse mit anderen Menschen über einen Link teilen. Diese URL verlinkt zur Berechnung der nebenstehenden Abbildung.
+
+https://next.ohsome-dashboard.heigit.org/de/#backend=oqtApi&topic=cycleway&adminids=-285864&indicators=currentness
+:::
+
+Auf den nächsten Seiten beschreiben wir die Ergebnisse für jeden Qualitätsindikator und diskutieren verschiedene Interpretationen.
