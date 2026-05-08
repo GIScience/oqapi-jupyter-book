@@ -1,6 +1,13 @@
-# Dashboard Nutzung
+# ohsome Dashboard
 
-Auf dieser Seite findest du eine einfache Übersicht darüber, wie du dich im [ohsome Dashboard](https://dashboard.ohsome.org/en/#backend=ohsomeApi&groupBy=none&time=%2F2026-02-19T12%3A00Z%2FP1M&key=natural&value=tree&types=node&measure=count) zurechtfindest. 
+Auf dieser Seite findest du eine einfache Übersicht darüber, wie du dich im [ohsome Dashboard](https://dashboard.ohsome.org/en/#backend=ohsomeApi&groupBy=none&time=%2F2026-02-19T12%3A00Z%2FP1M&key=natural&value=tree&types=node&measure=count) zurechtfindest.
+Das Dashboard ist in verschiedene Bereiche aufgeteilt, die unterschiedliche Schritte der Analyse beeinflussen.
+
+
+
+![ohsome Dashboard Overview](../abbildungen/ohsome_dashboard_overview_de.png)
+
+
 
 ## Lass uns mit den Grundlagen beginnen!
 Im oberen linken Reiter kannst du zwischen den *OSM-Zeitreihen* und den *OSM-Qualitätsanalysen* wählen.

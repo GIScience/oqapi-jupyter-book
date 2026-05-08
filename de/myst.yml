@@ -17,21 +17,21 @@ project:
       children:
       - title: Vollständigkeit
         children:
-          - file: content/attribute_completeness.ipynb
-          - file: content/building_comparison.ipynb
-          - file: content/land_cover_completeness.ipynb
-          - file: content/mapping_saturation.ipynb
-          - file: content/road_comparison.ipynb
+          - file: content/indicators/attribute_completeness.ipynb
+          - file: content/indicators/building_comparison.ipynb
+          - file: content/indicators/land_cover_completeness.ipynb
+          - file: content/indicators/mapping_saturation.ipynb
+          - file: content/indicators/road_comparison.ipynb
       - title: Aktualität
         children:
-          - file: content/currentness.ipynb
+          - file: content/indicators/currentness.ipynb
       - title: Thematische Genauigkeit
         children:
-          - file: content/land_cover_thematic_accuracy.ipynb
-          - file: content/road_thematic_accuracy.ipynb
+          - file: content/indicators/land_cover_thematic_accuracy.ipynb
+          - file: content/indicators/road_thematic_accuracy.ipynb
       - title: Sonstiges
         children:
-          - file: content/user_activity.ipynb
+          - file: content/indicators/user_activity.ipynb
     - file: content/topics.md
     - title: Exercises
       children:
