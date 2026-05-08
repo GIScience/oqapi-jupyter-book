@@ -41,6 +41,9 @@
     <loc>http://localhost:3000/topics</loc>
   </url>
   <url>
+    <loc>http://localhost:3000/custom-topics</loc>
+  </url>
+  <url>
     <loc>http://localhost:3000/coding-exercise</loc>
   </url>
   <url>
