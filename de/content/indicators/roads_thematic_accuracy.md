@@ -42,12 +42,12 @@ wurden als übereinstimmend gezählt, wenn ihr Levenshtein-Verhältnis über 0,8
 
 Für die Oberfläche werden OSM-Tags (Kennzeichnungen) und DLM-Tags abgeglichen. Alle OSM-Tags, die nicht in der folgenden Tabelle enthalten sind, werden als nicht übereinstimmend gewertet.
 
-| DLM-Wert        | OSM-Wert                                                 |
-|------------------|-----------------------------------------------------------|
-| concrete         | concrete                                                  |
-| bitumen, asphalt | asphalt                                                   |
-| pavemed          | paving_stones, sett, brick, cobblestone, unhewn_cobblestone |
-| rock, fragmented | fine_gravel, gravel, sand, compacted, pebblestone         |
+| DLM-Wert             | OSM-Wert                                                 |
+|----------------------|-----------------------------------------------------------|
+| Beton                | concrete                                                  |
+| Bitumen, Asphalt     | asphalt                                                   |
+| Pflaster             | paving_stones, sett, brick, cobblestone, unhewn_cobblestone |
+| Gestein, zerkleinert | fine_gravel, gravel, sand, compacted, pebblestone         |
 
 #### Fahrbahnbreite
 
