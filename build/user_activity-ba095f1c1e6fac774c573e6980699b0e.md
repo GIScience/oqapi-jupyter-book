@@ -19,7 +19,7 @@ In Kombination mit anderen Indikatoren sowie durch die Betrachtung absoluter Wer
 Dieser Indikator liefert zwar keine direkte Auskunft über die Datenqualität von OSM-Daten, aber man kann mit ihm dennoch Rückschlüsse auf die OSM-Daten schließen.
 
 <div>
-<img src="../abbildungen/Nutzeraktivität_Heidelberg.png" width="600"/>
+<img src="../../abbildungen/Nutzeraktivität_Heidelberg.png" width="600"/>
 </div>
 
 Die obere Grafik der Nutzeraktivität in Heidelberg zum Thema _Straßen(Autos)_ zeigt beispielsweise, dass die Nutzeraktivität der letzten Jahre recht Stabil bei ca. 20 liegt und in den letzten 10 Jahren leicht gestiegen ist.
@@ -28,7 +28,7 @@ Bei einer ähnlich großen Region im Odenwald (untere Grafik) liegt die Nutzerak
 Außerdem kann dieser Indikator genutzt werden, um Kartierungs-Aktivitäten verschiedener Regionen und Themen zu vergleichen.
 
 <div>
-<img src="../abbildungen/Nutzeraktivität_ländliche_Region.png" width="600"/>
+<img src="../../abbildungen/Nutzeraktivität_ländliche_Region.png" width="600"/>
 </div>
 
 

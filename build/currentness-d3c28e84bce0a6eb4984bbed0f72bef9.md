@@ -24,13 +24,13 @@ Sehen wir uns im Folgenden einige Ergebnisse des Aktualität-Indikators an.
 Die erste Abbildung zeigt Änderungen an Objekten des Themas _Feuerwachen_ in Erding in ihrer zeitlichen Verteilung. So kann ein Ergebnis aussehen, wenn es nur sehr wenige Elemente des abgefragten Themas in dem Untersuchungsgebiet gibt, die nur selten bearbeitet werden. Wenn wir mit dem Cursor über die farbigen Linien fahren, öffnet sich ein Fenster das weitere Informationen erhält. Hier erfahren wir, dass an jedem Änderungszeitpunkt genau ein Objekt bearbeitet wurde.
 
 <div>
-<img src="../abbildungen/aktualität_feuerwachen_erding.png" width="700"/>
+<img src="../../abbildungen/aktualität_feuerwachen_erding.png" width="700"/>
 </div>
 
 In der nächsten Abbildung sehen wir die Aktualität von ÖPNV-Haltestellen in Karlsruhe. Wir haben hier ein Thema mit vielen einzelnen Objekten, die sich aufgrund von Baustellen oder Änderung von Fahrplänen häufiger ändern können.
 
 <div>
-<img src="../abbildungen/aktualität_öpnv.png" width="700"/>
+<img src="../../abbildungen/aktualität_öpnv.png" width="700"/>
 </div>
 
 
