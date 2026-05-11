@@ -6,7 +6,7 @@ Die thematische Genauigkeit von Straßen zeigt die Übereinstimmung straßenspez
 Bei diesem Indikator muss zusätzlich zum Thema auch ein Attribut gewählt werden, das untersucht werden soll. Dafür erscheint unter der Auswahl des Indikators ein Feld für die Attributauswahl (siehe Abbildung). Der Indikator kann entweder für ein einzelnes Attribut oder alle Attribute auf einmal berechnet werden. Für letzteres muss das Feld leer gelassen werden.
 
 <div>
-<img src="../abbildungen/attributauswahl_thematisch_straßen.png" width="300"/>
+<img src="../../abbildungen/attributauswahl_thematisch_straßen.png" width="300"/>
 </div>
 :::
 
@@ -85,7 +85,7 @@ Die violetten Balken zeigen die Übereinstimmung zwischen den beiden Datensätze
 In der gewählten Region existiert das Attribut _Name_ sowohl in OSM- als auch in DLM-Daten größtenteils, wobei es in OSM etwas kompletter scheint. Außerdem wird deutlich, dass das Attribut zwischen den Datensätzen eine hohe Übereinstimmung aufweist. Generell lassen sich anhand der Übereinstimmung nicht direkt Rückschlüsse auf die Datenqualität schließen. Häufige Unterschiede im Attribut _Straßenspuren_ sind beispielsweise stark durch unterschiedliche Kartierungsregeln geprägt.
 
 <div>
-<img src="../abbildungen/Road_accuracy_name_HD.png" width="600"/>
+<img src="../../abbildungen/Road_accuracy_name_HD.png" width="600"/>
 </div>
 
 In dieser Beispielabbildung wurde die Übereinstimmung aller Attribut überprüft.
@@ -93,7 +93,7 @@ Es ist zu sehen, dass bei fast allen Straßen nicht alle Attribute gesetzt sind.
 In jedem Bundesland wird mindestens ein Attribut in der Regel nicht erfasst, daher gibt es im DLM kaum bis keine Straßen, die alle Attribute aufweist, daher kann mit dieser Auswahl hauptsächlich überprüft werden, wie viele OSM-Straßen alle Attribute aufweisen.
 
 <div>
-<img src="../abbildungen/straßen_thematisch_nicht_in_beiden.png" width="600"/>
+<img src="../../abbildungen/straßen_thematisch_nicht_in_beiden.png" width="600"/>
 </div>
 
 ## Limitierungen

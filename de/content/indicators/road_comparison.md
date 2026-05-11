@@ -26,7 +26,7 @@ Die Grafik zeigt ein Balkendiagramm der Vollständigkeit. Die graue Füllung zei
 ## Beispiel
 
 <div>
-<img src="../abbildungen/Straßenvergleich_Heidelberg.png" width="600"/>
+<img src="../../abbildungen/Straßenvergleich_Heidelberg.png" width="600"/>
 </div>
 
 Die Übereinstimmung zwischen Microsoft Roads und OSM beträgt in Heidelberg 96%, weshalb hier von einer hohe Vollständigkeit der OSM-Daten auszugehen ist.
@@ -34,7 +34,7 @@ Die Übereinstimmung zwischen Microsoft Roads und OSM beträgt in Heidelberg 96%
 In einer Region der Türkei liegt die Übereinstimmung nur bei etwa zwei Dritteln. Hier ist die Vollständigkeit nur mittelmäßig und es ist von einigen Datenlücken auszugehen, wobei die OSM-Daten je nach Anwendungsfall durchaus noch nutzbar sind.
 
 <div>
-<img src="../abbildungen/Straßenvergleich_Türkei.png" width="600"/>
+<img src="../../abbildungen/Straßenvergleich_Türkei.png" width="600"/>
 </div>
 
 

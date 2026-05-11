@@ -11,7 +11,7 @@ Für das definierte Interessensgebiet werden die aus der Verschneidung von OSM- 
 Bei diesem Indikator muss zusätzlich zum Thema auch ein Attribut gewählt werden, das untersucht werden soll. Dafür erscheint unter der Auswahl des Indikators ein Feld für die Attributauswahl (siehe Abbildung). Der Indikator kann entweder für ein einzelnes Attribut oder alle Attribute auf einmal berechnet werden. Für letzteres muss das Feld leer gelassen werden.
 
 <div>
-<img src="../abbildungen/landbedeck_thematisch_dropdown.png" width="300"/>
+<img src="../../abbildungen/landbedeck_thematisch_dropdown.png" width="300"/>
 </div>
 :::
 
@@ -72,19 +72,19 @@ Das grüne, gelbe oder rote Banner oben links zeigt den Attribut-Vollständigkei
 In Bonn hat die thematische Genauigkeit aller Landbedeckungsklassen gemeinsam eine mittlere Genauigkeit von 85,16%. Auf der Abbildung sehen wir wie sich diese Genauigkeit zusammensetzt und dass beispielsweise städtisch geprägte Fläche (Urban Fabric) eine weit höhere Übereinstimmung mit der Corine Klassifikation erreicht als Grünflächen (Shrubs and/or herbaceous vegetation associations).
 
 <div>
-<img src="../abbildungen/landbedeck_thematisch_bonn.png" width="700"/>
+<img src="../../abbildungen/landbedeck_thematisch_bonn.png" width="700"/>
 </div>
 
-Wenn wir in dem dropdown Menü eine spezielle Landbedeckungsklasse auswählen die uns besonders interessiert, sieht das Ergebnis wie folgt aus. Hier sehen wir die thematische Genauigkeit für Grünflächen in Bonn. Falsch-Negativ, Richtig-Positiv und Falsch-Positiv sind hier jeweils zu etwa einem Drittel vorhanden. Dies zeigt uns eine geringe Übereinstimmung des OSM mit dem Corine Datensatzes im Bereich Grünflächen in Bonn.
+Wenn wir in dem Dropdown-Menü eine spezielle Landbedeckungsklasse auswählen die uns besonders interessiert, sieht das Ergebnis wie folgt aus. Hier sehen wir die thematische Genauigkeit für Grünflächen in Bonn. Falsch-Negativ, Richtig-Positiv und Falsch-Positiv sind hier jeweils zu etwa einem Drittel vorhanden. Dies zeigt uns eine geringe Übereinstimmung des OSM mit dem Corine Datensatzes im Bereich Grünflächen in Bonn.
 
 <div>
-<img src="../abbildungen/landbedeck_thematisch_bonn_grünflächen.png" width="700"/>
+<img src="../../abbildungen/landbedeck_thematisch_bonn_grünflächen.png" width="700"/>
 </div>
 
 Eine höhere Übereinstimmung finden wir im Kreis Euskirchen mit der Klasse Ackerland.
 
 <div>
-<img src="../abbildungen/landbedeck_thematisch_euskirchen_ackerland.png" width="700"/>
+<img src="../../abbildungen/landbedeck_thematisch_euskirchen_ackerland.png" width="700"/>
 </div>
 
 ### Für diesen Indikator genutzte Literatur
