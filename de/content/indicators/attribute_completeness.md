@@ -28,9 +28,9 @@ Wenn das untersuchte OSM Element eine Linie ist, wird das Verhältnis basierend 
 Bei Polygonen nutzen wir die Fläche in km².
 
 Es gibt drei Qualitätskategorien:
-- niedrige Completeness < 25%
-- mittlere Completeness 25% - 75%
-- hohe Completeness > 75%
+- niedrige Vollständigkeit < 25%
+- mittlere Vollständigkeit 25% - 75%
+- hohe Vollständigkeit > 75%
 
 Die Grenzwerte für die Qualitätskategorien wurden durch die Betrachtung vieler Gebiete und Attribute festgelegt und sollten nicht als objektive Metrik verstanden werden.
 
