@@ -51,14 +51,14 @@ Die resultierenden Polygone enthalten sowohl die OSM-CLC-Klasse als auch die COR
 | 2.1 	Ackerland                                     | `landuse in (greenhouse_horticulture, greenhouse, farmland, farmyard)`                                                                                                                  |
 | 2.2 	Dauerkulturen                                 | `landuse in (vineyard, orchard)`                                                                                                                                                        |
 | 2.3 	Grünland                                        | `landuse in (meadow)`                                                                                                                                                                   |
-| 2.4 	Heterogene landwirtschaftliche Fläche                | *For class 2.4 many of the OSM tags from 2.1 apply. Therefore class 2.4 is never assigned.*                                                                                             |
+| 2.4 	Heterogene landwirtschaftliche Fläche                | *Für die Klasse 2.4 stimmen viele OSM-Werte mit denen aus Klasse 2.1 überein. Daher wird Klasse 2.4 nie zugewiesen.*                                                                    |
 | 3.1 	Wälder                                         | `landuse in (forest) or natural in (wood)`                                                                                                                                              |
 | 3.2 	Strauch- und Krautvegetation | `landuse in (greenfield) or natural in (grassland, scrub, heath, fell)`                                                                                                                 |
 | 3.3 	Offene Flächen ohne/ mit geringer Vegetation        | `natural in (beach, scree, shingle, bare_rock, sand, glacier, mud, glacier, rock, cliff, fill)`                                                                                         |
 | 4.1 	Feuchtflächen im Landesinneren                               | `natural in (wetland)`                                                                                                                                                                  |
 | 4.2 	Feuchtflächen an der Küste                               | `landuse in (salt_pond)`                                                                                                                                                                |
 | 5.1 	Wasserflächen im Landesinneren                                   | `natural in (water, pond) or landuse in (basin, reservoir)`                                                                                                                             |
-| 5.2 	Meeresgewässer                                   | *Marine waters are not mapped in OSM. Therefore class 5.2 is never assigned.*                                                                                                           |
+| 5.2 	Meeresgewässer                                   | *Meeresgewässer werden in OSM nicht gemappt. Daher wird die Klasse 5.2 nie zugewiesen.*                                                                                                 |
 
 ## Ergebnisgrafik
 Die Ergebnisse der Abfrage findest du im Ergebnisprotokoll unten.
