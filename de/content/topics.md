@@ -12,10 +12,19 @@ Wenn Sie im Dashboard ein Thema auswählen, erscheinen darunter automatisch alle
 Sie finden außerdem eine Tabelle zur Verfügbarkeit der Indikatoren für jedes Thema, wenn Sie auf die 
 Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
 
+### Aggregationen
+
+Die OSM-Daten werden anhand eines Aggregationstypen zusammengefasst. Jedes Thema besitzt genau einen zugewiesenen 
+Aggregationstyp. Aggregationstyp *Anzahl* zählt jedes einzelne Element, *Länge* rechnet die geographische Länge aller
+Elemente zusammen und *Fläche* entsprechend die geographische Fläche der Elemente. Nur der Aktualitäts- und 
+Kartierungssättigungsindikator berücksichtigen aktuell den Aggregationstypen. Der Attributvollständigkeitsindikator ist 
+nur für Aggregationstyp *Anzahl* verfügbar.
+
 :::{dropdown} Gebäude (Anzahl)
 
 - **Beschreibung:** Alle Gebäude, definiert durch alle Objekte mit dem Tag `building=*`.
-- **Filter:** `building=* and building!=no and geometry:polygon`  
+- **Filter:** `building=* and building!=no and geometry:polygon`
+- **Aggregation:** Anzahl
 :::
 
 ---
@@ -23,7 +32,8 @@ Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
 :::{dropdown} Gebäude (Fläche)
 
 - **Beschreibung:** Alle Gebäude, definiert durch alle Objekte mit dem Tag `building=*`.
-- **Filter:** `building=* and building!=no and geometry:polygon`  
+- **Filter:** `building=* and building!=no and geometry:polygon`
+- **Aggregation:** Fläche
 :::
 
 ---
@@ -31,7 +41,8 @@ Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
 :::{dropdown} Straßen (alle highways)
 
 - **Beschreibung:** Alle linearen OSM-Objekte mit dem Haupt-Tag `highway=*`. Das Straßennetz, definiert durch alle Objekte mit den Haupt-Tags des Straßennetzes sowie deren Verbindungsstraßen, wie im [OSM Wiki](https://wiki.openstreetmap.org/wiki/Key:highway) beschrieben.
-- **Filter:** `highway=* and geometry:line and name=*`  
+- **Filter:** `highway=* and geometry:line and name=*`
+- **Aggregation:** Länge
 :::
 
 ---
@@ -39,7 +50,8 @@ Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
 :::{dropdown} Straßen (Autos)
 
 - **Beschreibung:** Alle linearen OSM-Objekte, die sich auf Straßen beziehen, die von Fahrzeugen (z. B. Autos) genutzt werden können. Das Straßennetz, definiert durch alle Objekte mit den Haupt-Tags des Straßennetzes sowie deren Verbindungsstraßen, wie im [OSM Wiki](https://wiki.openstreetmap.org/wiki/Highways#Roads_and_tracks) beschrieben.
-- **Filter:** `highway in (motorway, trunk, primary, secondary, tertiary, residential, service, living_street, trunk_link, motorway_link, primary_link, secondary_link, tertiary_link, unclassified) and geometry:line`  
+- **Filter:** `highway in (motorway, trunk, primary, secondary, tertiary, residential, service, living_street, trunk_link, motorway_link, primary_link, secondary_link, tertiary_link, unclassified) and geometry:line`
+- **Aggregation:** Länge
 :::
 
 ---
@@ -47,7 +59,8 @@ Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
 :::{dropdown} Eisenbahnen
 
 - **Beschreibung:** Eisenbahnnetze.
-- **Filter:** `railway in (rail, subway, tram, light_rail, monorail, funicular, narrow_gauge) and type:way`  
+- **Filter:** `railway in (rail, subway, tram, light_rail, monorail, funicular, narrow_gauge) and type:way`
+- **Aggregation:** Länge
 :::
 
 ---
@@ -55,7 +68,8 @@ Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
 :::{dropdown} Brücken (Autos)
 
 - **Beschreibung:** Alle linearen OSM-Objekte, die sich auf Brücken beziehen, die von Fahrzeugen genutzt werden können.
-- **Filter:** `highway in (motorway, trunk, primary, secondary, tertiary, residential, service, living_street, trunk_link, motorway_link, primary_link, secondary_link, tertiary_link, unclassified) and bridge=* and geometry:line`  
+- **Filter:** `highway in (motorway, trunk, primary, secondary, tertiary, residential, service, living_street, trunk_link, motorway_link, primary_link, secondary_link, tertiary_link, unclassified) and bridge=* and geometry:line`
+- **Aggregation:** Länge
 :::
 
 ---
@@ -63,7 +77,8 @@ Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
 :::{dropdown} Brücken (alle Wege)
 
 - **Beschreibung:** Alle linearen OSM-Objekte, die sich auf Brücken beziehen, einschließlich reiner Fußwege.
-- **Filter:** `bridge=* and geometry:line`  
+- **Filter:** `bridge=* and geometry:line`
+- **Aggregation:** Länge
 :::
 
 ---
@@ -71,7 +86,8 @@ Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
 :::{dropdown} Brücken (Anzahl)
 
 - **Beschreibung:** Anzahl aller als Brücke gekennzeichneten Polygone.
-- **Filter:** `man_made=bridge and geometry:polygon`  
+- **Filter:** `man_made=bridge and geometry:polygon`
+- **Aggregation:** Anzahl
 :::
 
 ---
@@ -79,7 +95,8 @@ Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
 :::{dropdown} Radweg
 
 - **Beschreibung:** Alle linearen OSM-Objekte, die sich auf Radwege beziehen. Beinhaltet eigenständige Radwege sowie Radwege entlang von Straßen.
-- **Filter:** `((cycleway=* and cycleway!=no) or (cycleway:both=*) or (cycleway:right=*) or (cycleway:left=*) or (cycleway:right:lane=*) or (cycleway:both:lane=*) or (cycleway:left:lane=*) or (cycleway:left:oneway=*) or (cycleway:right:oneway=*) or (highway=cycleway) or (highway=path and bicycle=designated) or (bicycle_road=yes) or (cyclestreet=yes)) and geometry:line`  
+- **Filter:** `((cycleway=* and cycleway!=no) or (cycleway:both=*) or (cycleway:right=*) or (cycleway:left=*) or (cycleway:right:lane=*) or (cycleway:both:lane=*) or (cycleway:left:lane=*) or (cycleway:left:oneway=*) or (cycleway:right:oneway=*) or (highway=cycleway) or (highway=path and bicycle=designated) or (bicycle_road=yes) or (cyclestreet=yes)) and geometry:line`
+- **Aggregation:** Länge
 :::
 
 ---
@@ -87,7 +104,8 @@ Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
 :::{dropdown} Stromleitungen
 
 - **Beschreibung:** Alle linearen OSM-Objekte, die sich auf Stromleitungen beziehen.
-- **Filter:** `((power=line) or (power=minor_line)) and geometry:line`  
+- **Filter:** `((power=line) or (power=minor_line)) and geometry:line`
+- **Aggregation:** Länge
 :::
 
 ---
@@ -95,7 +113,8 @@ Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
 :::{dropdown} Umspannwerk
 
 - **Beschreibung:** Eine Anlage, die den Stromfluss in einem Stromnetz mit Transformatoren, Schaltanlagen oder Kompensatoren steuert.
-- **Filter:** `power=substation and (type:way or type:node)`  
+- **Filter:** `power=substation and (type:way or type:node)`
+- **Aggregation:** Anzahl
 :::
 
 ---
@@ -103,7 +122,8 @@ Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
 :::{dropdown} Fußweg
 
 - **Beschreibung:** Alle linearen OSM-Objekte, die üblicherweise zum Gehen genutzt werden, einschließlich spezieller Fußwege, gemeinsam genutzter Wege sowie Straßen, auf denen Fußverkehr erlaubt ist oder Gehwege vorhanden sind.
-- **Filter:** `((highway=footway) or (highway=path and (foot=designated or foot=yes)) or (highway=pedestrian) or (highway=steps) or (highway=cycleway and foot=yes) or (sidewalk=* and highway!=motorway) or (foot=yes)) and geometry:line`  
+- **Filter:** `((highway=footway) or (highway=path and (foot=designated or foot=yes)) or (highway=pedestrian) or (highway=steps) or (highway=cycleway and foot=yes) or (sidewalk=* and highway!=motorway) or (foot=yes)) and geometry:line`
+- **Aggregation:** Länge
 :::
 
 ---
@@ -111,7 +131,8 @@ Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
 :::{dropdown} Points of Interest (POI)
 
 - **Beschreibung:** Points of Interest (Sehenswürdigkeiten).
-- **Filter:** `((aeroway in (aerodrome, helipad, heliport)) or (amenity in (animal_boarding, animal_shelter, arts_centre, atm, baby_hatch, bank, bar, bbq, bench, bicycle_parking, bicycle_rental, bicycle_repair_station, biergarten, boat_sharing, brothel, bureau_de_change, bus_station, bus_stop, cafe, car_sharing, car_wash, casino, charging_station, cinema, clinic, clock, college, community_centre, compressed_air, courthouse, coworking_space, crematorium, crypt, dentist, doctors, dive_centre, dojo, drinking_water, driving_school, embassy, emergency_phone, ev_charging, fast_food, ferry_terminal, fire_station, food_court, fountain, fuel, gambling, grave_yard, hospital, hunting_stand, ice_cream, internet_cafe, kindergarten, language_school, library, kneipp_water_cure, marketplace, motorcycle_parking, music_school, nightclub, nursing_home, parking, parking_entrance, parking_space, pharmacy, photo_booth, planetarium, place_of_worship, police, post_box, post_office, pub, public_bath, prison, ranger_station, recycling, rescue_station, restaurant, retirement_home, sanitary_dump_station, school, shelter, shower, social_centre, social_facility, spa, stripclub, studio, table, taxi, telephone, toilets, townhall, university, vending_machine, veterinary, waste_basket, waste_disposal, water_point)) or (emergency in (access_point, defibrillator, fire_hydrant)) or (healthcare = blood_donation) or (healthcare:speciality = vacciniation) or (highway = raceway) or (historic in (aircraft, aqueduct, archaeological_site, battlefield, boundary_stone, building, castle, cannon, city_gate, citywalls, farm, fort, gallows, highwater_mark, locomotive, manor, memorial, milestone, monastery, monument, optical_telegraph, pillory, ruins, rune_stone, ship, tomb, wayside_cross, wayside_shrine, wreck)) or (leisure in (adult_gaming_centre, amusement_arcade, beach_resort, bandstand, bird_hide, common, dance, dog_park, firepit, fishing, fitness_centre, garden, golf_course, hackerspace, horse_riding, ice_rink, marina, miniature_golf, nature_reserve, park, picnic_table, pitch, playground, sauna, slipway, sports_centre, stadium, summer_camp, swimming_area, swimming_pool, track, turkish_bath, water_park, wildlife_hide)) or (natural in (beach, cave_entrance, geyser, peak, rock, saddle, spring, volcano, water)) or (public_transport in (platform, stop_position, station, stop_area)) or (railway in (halt, station, tram_station)) or (shop in (agrarian, alcohol, antiques, art, bag, bakery, beauty, bed, beverages, bicycle, books, boutique, brewing_supplies, business_machines, butcher, cafe, camera, candles, car, car_parts, carpet, curtain, cheese, chemist, chocolate, clothes, coffee, computer, confectionery, convenience, copyshop, cosmetics, dairy, deli, department_store, doityourself, dry_cleaning, electrical, electronics, erotic, estate_agent, e-cigarette, farm, fashion, fishing, florist, funeral_directors, furniture, games, garden_centre, garden_furniture, gas, general, gift, glaziery, greengrocer, grocery, hairdresser, hairdresser_supply, hardware, hearing_aids, herbalist, hifi, houseware, hunting, insurance, interior_decoration, jewelry, laundry, leather, locksmith, kiosk, kitchen, lamps, lottery, mall, massage, medical_supply, mobile_phone, model, motorcycle, music, musical_instrument, nutrition_supplements, newsagent, optician, organic, outdoor, paint, pastry, perfumery, photo, pyrotechnics, radio, seafood, second_hand, security, shoes, spices, sports, stationery, supermarket, swimming_pool, tailor, tattoo, tea, ticket, tiles, tobacco, toys, travel_agency, trophy, tyres, variety_store, video, video_games, watches, weapons, wine, pet)) or (tourism in (alpine_hut, apartment, aquarium, artwork, attraction, camp_site, caravan_site, chalet, gallery, museum, guest_house, hostel, hotel, motel, picnic_site, theme_park, viewpoint, wilderness_hut, zoo))) and (type:way or type:node)`  
+- **Filter:** `((aeroway in (aerodrome, helipad, heliport)) or (amenity in (animal_boarding, animal_shelter, arts_centre, atm, baby_hatch, bank, bar, bbq, bench, bicycle_parking, bicycle_rental, bicycle_repair_station, biergarten, boat_sharing, brothel, bureau_de_change, bus_station, bus_stop, cafe, car_sharing, car_wash, casino, charging_station, cinema, clinic, clock, college, community_centre, compressed_air, courthouse, coworking_space, crematorium, crypt, dentist, doctors, dive_centre, dojo, drinking_water, driving_school, embassy, emergency_phone, ev_charging, fast_food, ferry_terminal, fire_station, food_court, fountain, fuel, gambling, grave_yard, hospital, hunting_stand, ice_cream, internet_cafe, kindergarten, language_school, library, kneipp_water_cure, marketplace, motorcycle_parking, music_school, nightclub, nursing_home, parking, parking_entrance, parking_space, pharmacy, photo_booth, planetarium, place_of_worship, police, post_box, post_office, pub, public_bath, prison, ranger_station, recycling, rescue_station, restaurant, retirement_home, sanitary_dump_station, school, shelter, shower, social_centre, social_facility, spa, stripclub, studio, table, taxi, telephone, toilets, townhall, university, vending_machine, veterinary, waste_basket, waste_disposal, water_point)) or (emergency in (access_point, defibrillator, fire_hydrant)) or (healthcare = blood_donation) or (healthcare:speciality = vacciniation) or (highway = raceway) or (historic in (aircraft, aqueduct, archaeological_site, battlefield, boundary_stone, building, castle, cannon, city_gate, citywalls, farm, fort, gallows, highwater_mark, locomotive, manor, memorial, milestone, monastery, monument, optical_telegraph, pillory, ruins, rune_stone, ship, tomb, wayside_cross, wayside_shrine, wreck)) or (leisure in (adult_gaming_centre, amusement_arcade, beach_resort, bandstand, bird_hide, common, dance, dog_park, firepit, fishing, fitness_centre, garden, golf_course, hackerspace, horse_riding, ice_rink, marina, miniature_golf, nature_reserve, park, picnic_table, pitch, playground, sauna, slipway, sports_centre, stadium, summer_camp, swimming_area, swimming_pool, track, turkish_bath, water_park, wildlife_hide)) or (natural in (beach, cave_entrance, geyser, peak, rock, saddle, spring, volcano, water)) or (public_transport in (platform, stop_position, station, stop_area)) or (railway in (halt, station, tram_station)) or (shop in (agrarian, alcohol, antiques, art, bag, bakery, beauty, bed, beverages, bicycle, books, boutique, brewing_supplies, business_machines, butcher, cafe, camera, candles, car, car_parts, carpet, curtain, cheese, chemist, chocolate, clothes, coffee, computer, confectionery, convenience, copyshop, cosmetics, dairy, deli, department_store, doityourself, dry_cleaning, electrical, electronics, erotic, estate_agent, e-cigarette, farm, fashion, fishing, florist, funeral_directors, furniture, games, garden_centre, garden_furniture, gas, general, gift, glaziery, greengrocer, grocery, hairdresser, hairdresser_supply, hardware, hearing_aids, herbalist, hifi, houseware, hunting, insurance, interior_decoration, jewelry, laundry, leather, locksmith, kiosk, kitchen, lamps, lottery, mall, massage, medical_supply, mobile_phone, model, motorcycle, music, musical_instrument, nutrition_supplements, newsagent, optician, organic, outdoor, paint, pastry, perfumery, photo, pyrotechnics, radio, seafood, second_hand, security, shoes, spices, sports, stationery, supermarket, swimming_pool, tailor, tattoo, tea, ticket, tiles, tobacco, toys, travel_agency, trophy, tyres, variety_store, video, video_games, watches, weapons, wine, pet)) or (tourism in (alpine_hut, apartment, aquarium, artwork, attraction, camp_site, caravan_site, chalet, gallery, museum, guest_house, hostel, hotel, motel, picnic_site, theme_park, viewpoint, wilderness_hut, zoo))) and (type:way or type:node)`
+- **Aggregation:** Anzahl
 :::
 
 ---
@@ -119,7 +140,8 @@ Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
 :::{dropdown} Schulen
 
 - **Beschreibung:** Anzahl der Schulen.
-- **Filter:** `amenity=school and (type:way or type:node)`  
+- **Filter:** `amenity=school and (type:way or type:node)`
+- **Aggregation:** Anzahl
 :::
 
 ---
@@ -127,7 +149,8 @@ Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
 :::{dropdown} Kindergärten
 
 - **Beschreibung:** Anzahl der Kindergärten.
-- **Filter:** `amenity=kindergarten and (type:way or type:node)`  
+- **Filter:** `amenity=kindergarten and (type:way or type:node)`
+- **Aggregation:** Anzahl
 :::
 
 ---
@@ -135,7 +158,8 @@ Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
 :::{dropdown} Kliniken
 
 - **Beschreibung:** Anzahl der Kliniken.
-- **Filter:** `(amenity=clinic or healthcare=clinic) and (type:way or type:node)`  
+- **Filter:** `(amenity=clinic or healthcare=clinic) and (type:way or type:node)`
+- **Aggregation:** Anzahl
 :::
 
 ---
@@ -143,7 +167,8 @@ Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
 :::{dropdown} Ärzte
 
 - **Beschreibung:** Anzahl der Ärzte.
-- **Filter:** `(amenity=doctors or healthcare=doctor) and (type:way or type:node)`  
+- **Filter:** `(amenity=doctors or healthcare=doctor) and (type:way or type:node)`
+- **Aggregation:** Anzahl
 :::
 
 ---
@@ -151,7 +176,8 @@ Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
 :::{dropdown} Bushaltestellen
 
 - **Beschreibung:** Anzahl der Bushaltestellen.
-- **Filter:** `highway=bus_stop and type:node`  
+- **Filter:** `highway=bus_stop and type:node`
+- **Aggregation:** Anzahl
 :::
 
 ---
@@ -159,7 +185,8 @@ Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
 :::{dropdown} Straßenbahnhaltestellen
 
 - **Beschreibung:** Anzahl der Straßenbahnhaltestellen.
-- **Filter:** `railway=tram_stop and type:node`  
+- **Filter:** `railway=tram_stop and type:node`
+- **Aggregation:** Anzahl
 :::
 
 ---
@@ -167,7 +194,8 @@ Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
 :::{dropdown} ÖPNV-Haltestellen
 
 - **Beschreibung:** Anzahl der Haltestellen des öffentlichen Verkehrs.
-- **Filter:** `public_transport=platform and (type:way or type:node)`  
+- **Filter:** `public_transport=platform and (type:way or type:node)`
+- **Aggregation:** Anzahl
 :::
 
 ---
@@ -175,7 +203,8 @@ Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
 :::{dropdown} U-Bahn-Stationen
 
 - **Beschreibung:** Anzahl der U-Bahn-Stationen.
-- **Filter:** `station=subway and (type:way or type:node)`  
+- **Filter:** `station=subway and (type:way or type:node)`
+- **Aggregation:** Anzahl
 :::
 
 ---
@@ -183,7 +212,8 @@ Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
 :::{dropdown} Supermärkte
 
 - **Beschreibung:** Anzahl der Supermärkte.
-- **Filter:** `(shop=supermarket or shop=convenience) and (type:way or type:node)`  
+- **Filter:** `(shop=supermarket or shop=convenience) and (type:way or type:node)`
+- **Aggregation:** Anzahl
 :::
 
 ---
@@ -191,7 +221,8 @@ Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
 :::{dropdown} Marktplätze
 
 - **Beschreibung:** Anzahl der Marktplätze.
-- **Filter:** `amenity=marketplace and (type:way or type:node)`  
+- **Filter:** `amenity=marketplace and (type:way or type:node)`
+- **Aggregation:** Anzahl
 :::
 
 ---
@@ -199,7 +230,8 @@ Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
 :::{dropdown} Parks
 
 - **Beschreibung:** Anzahl der Parks.
-- **Filter:** `leisure=park and (type:way or type:node)`  
+- **Filter:** `leisure=park and (type:way or type:node)`
+- **Aggregation:** Anzahl
 :::
 
 ---
@@ -207,7 +239,8 @@ Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
 :::{dropdown} Sportplätze
 
 - **Beschreibung:** Anzahl der Sportplätze (Flächen zur Ausübung einer bestimmten Sportart).
-- **Filter:** `leisure=pitch and (type:way or type:node)`  
+- **Filter:** `leisure=pitch and (type:way or type:node)`
+- **Aggregation:** Anzahl
 :::
 
 ---
@@ -215,7 +248,8 @@ Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
 :::{dropdown} Wälder
 
 - **Beschreibung:** Anzahl der Wälder.
-- **Filter:** `landuse=forest and geometry:polygon`  
+- **Filter:** `landuse=forest and geometry:polygon`
+- **Aggregation:** Anzahl
 :::
 
 ---
@@ -223,7 +257,8 @@ Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
 :::{dropdown} Industrieflächen (Anzahl)
 
 - **Beschreibung:** Industrieflächen (Anzahl).
-- **Filter:** `landuse=industrial and type:way`  
+- **Filter:** `landuse=industrial and type:way`
+- **Aggregation:** Anzahl
 :::
 
 ---
@@ -231,7 +266,8 @@ Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
 :::{dropdown} Industrieflächen (Fläche)
 
 - **Beschreibung:** Industrieflächen (Fläche).
-- **Filter:** `landuse=industrial and type:way`  
+- **Filter:** `landuse=industrial and type:way`
+- **Aggregation:** Fläche
 :::
 
 ---
