@@ -28,7 +28,7 @@ project:
       - title: Thematische Genauigkeit
         children:
           - file: content/indicators/land_cover_thematic_accuracy.md
-          - file: content/indicators/road_thematic_accuracy.md
+          - file: content/indicators/roads_thematic_accuracy.md
       - title: Sonstiges
         children:
           - file: content/indicators/user_activity.md
