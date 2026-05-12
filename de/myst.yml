@@ -34,11 +34,11 @@ project:
           - file: content/indicators/user_activity.md
     - file: content/topics.md
     - file: content/custom_topics.md
-    - title: Exercises
+    - title: Übungsaufgaben
       children:
         - file: content/Exercises/Coding Exercise.ipynb
-        - file: content/Exercises/Level 1.ipynb
-        - file: content/Exercises/Level 2.ipynb
+        - file: content/Exercises/level_1.md
+        - file: content/Exercises/level_2.md
         - file: content/Exercises/Level 3.ipynb
     
 site:
