@@ -60,7 +60,7 @@ Du kannst diese Bounding Box anschließend auch wieder anpassen oder löschen.
 ## Qualitätsindikatoren
 
 Abhängig von deinem gewählten *Thema* findest du die verfügbaren Qualitätsindikatoren zur Auswahl.
-Jeder Indikator wird direkt im ohsome Dahboard kurz beschrieben.
+Jeder Indikator wird direkt im ohsome Dashboard kurz beschrieben.
 Eine detaillierte Erläuterung zur Methodik und möglichen Limitationen findest du im nächsten Kapitel.
 
 Du kannst OSM-Daten anhand mehrerer Qualitätsdimensionen analysieren:
