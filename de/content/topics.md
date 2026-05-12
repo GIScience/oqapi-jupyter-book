@@ -1,3 +1,24 @@
+# Themadefinitionen
+
+Ein Thema beschreibt die Anfrage, die an die [ohsome API](https://api.ohsome.org) gestellt werden soll. 
+Jedes Thema steht für eine bestimmte Menge von Objekten, aggregierten Informationen oder Nutzerstatistiken, 
+die aus der OpenStreetMap-Datenbank abgeleitet werden. Jedes Thema wird durch den ohsome API _endpoint_, 
+einen _aggregation_type_ und den Parameter _filter_ definiert. Zusätzlich besitzt jedes Thema einen Schlüssel
+(Key), einen Namen, eine Beschreibung, eine Liste gültiger Indikatoren sowie eine Liste von Projekten, zu 
+denen das Thema gehört.
+
+Wenn Sie im Dashboard ein Thema auswählen, erscheinen darunter automatisch alle verfügbaren Indikatoren.
+
+Sie finden außerdem eine Tabelle zur Verfügbarkeit der Indikatoren für jedes Thema, wenn Sie auf die 
+Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
+
+### Aggregationen
+
+Die OSM-Daten werden anhand eines Aggregationstypen zusammengefasst. Jedes Thema besitzt genau einen zugewiesenen 
+Aggregationstyp. Aggregationstyp *Anzahl* zählt jedes einzelne Element, *Länge* rechnet die geographische Länge aller
+Elemente zusammen und *Fläche* entsprechend die geographische Fläche der Elemente. Nur der Aktualitäts-, 
+Kartierungssättigungs- und der Attributvollständigkeitsindikator berücksichtigen aktuell den Aggregationstypen.
+
 :::{dropdown} Gebäude (Anzahl)
 
 - **Beschreibung:** Alle Gebäude, definiert durch alle Objekte mit dem Tag `building=*`.
