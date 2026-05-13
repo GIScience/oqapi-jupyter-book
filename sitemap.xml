@@ -44,9 +44,6 @@
     <loc>http://localhost:3000/custom-topics</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/coding-exercise</loc>
-  </url>
-  <url>
     <loc>http://localhost:3000/level-1</loc>
   </url>
   <url>
@@ -54,5 +51,8 @@
   </url>
   <url>
     <loc>http://localhost:3000/level-3</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/coding-exercise</loc>
   </url>
 </urlset>
