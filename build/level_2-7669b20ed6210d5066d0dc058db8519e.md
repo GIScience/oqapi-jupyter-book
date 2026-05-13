@@ -22,3 +22,16 @@ Deutsche Autobahnen werden mit dem Schlüssel-Wert-Paar *highway=motorway* in OS
 Um uns auf linienhafte Elemente zu reduzieren, fügen wir noch *geometry:line* hinzu. Zusammen ergibt sich dadurch der Filter
 *highway=motorway and geometry:line*.
 :::
+
+
+Wähle nun für das Thema *Straßen (Autos)* mindestens zwei weitere Regionen aus um deine Analyse auzuweiten.
+Du kannst dabei auch Regionen außerhalb Deutschlands wählen.
+
+:::{admonition} Aufgabe
+:class: tip
+Welche regionalen Unterschiede kannst du in der Datenqualität feststellen?
+:::
+
+:::{dropdown} Lösung
+* [Radwege Sao Paolo](https://next.ohsome-dashboard.heigit.org/de/#backend=oqtApi&topic=cycleway&adminids=-4807856&indicators=mapping-saturation%2Ccurrentness)
+:::
