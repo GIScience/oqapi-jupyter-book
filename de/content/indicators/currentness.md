@@ -12,6 +12,14 @@ Der Aktualität-Indikator berücksichtigt alle Änderungen an Geometrien und Att
 - Aktuell (> 0.75): Elemente gelten als aktuell, wenn ihre letzte Bearbeitung in ein vordefiniertes kurzes Zeitfenster von unter 4 Jahren fällt.
 Generell ist anzumerken, dass je nach Thema Daten auch noch akkurat sind, selbst wenn sie veraltet sind. Natürliche Landbedeckungsflächen wie Wälder können beispielsweise trotz eines Alters von über 8 Jahren noch korrekt sein.
 
+:::{margin} Limitationen
+Die Aktualität der Bearbeitungen garantiert nicht die Richtigkeit oder thematische Genauigkeit.
+
+Einige Merkmale sind möglicherweise korrekt und aktuell, wurden jedoch über einen längeren Zeitraum nicht geändert und werden fälschlicherweise als veraltet eingestuft.
+
+Die Kartierungsaktivität variiert stark zwischen Themen und Regionen und erfordert daher unterschiedliche Schwellenwerte für die Zeitstempel, um eine Aktualitätsabschätzung machen zu können. Dies ist aktuell nicht möglich.
+:::
+
 ## Ergebnisgrafik
 Die Ergebnisse der Abfrage findest du im Ergebnisprotokoll unten.
 Ergebnisprotokoll unten.

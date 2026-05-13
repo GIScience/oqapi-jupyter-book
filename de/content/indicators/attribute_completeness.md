@@ -34,6 +34,11 @@ Es gibt drei Qualitätskategorien:
 
 Die Grenzwerte für die Qualitätskategorien wurden durch die Betrachtung vieler Gebiete und Attribute festgelegt und sollten nicht als objektive Metrik verstanden werden.
 
+:::{margin} Limitationen
+1. Manche Attribute in OpenStreetMap sind impliziert durch das Vorhandensein anderer Attribute. Zum Beispiel wird typischerweise die Geschwindigkeitsbegrenzung innerhalb von Spielstraßen nicht explizit kartiert, da es vom Typ der Straße abzuleiten ist. Momentan werden diese impliziten Attribute nicht berücksichtigt.
+2. Der Schwellenwert zur Einschätzung der Vollständigkeit ist für jedes Attribute der Gleiche. Dieser Schwellenwert ist jedoch vom Anwendungsfall abhängig.
+:::
+
 ## Beispiele
 
 In folgendem Beispiel sehen wir wie wichtig es ist, das richtige Thema auszuwählen. Wir wollen die Attributvollständigkeit der Straßennamen für die Frankfurter Innenstadt herausfinden.

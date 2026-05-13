@@ -43,6 +43,10 @@ Im Bereich für die Auswahl des Interessensgebiets im Dashboard kannst du weiße
 
 Ein Ergebnis wird berechnet, wenn mindestens 50 % deines ausgewählten Gebiets durch einen Referenzdatensatz abgedeckt sind.
 
+:::{margin} Limitationen
+1. Da OpenStreetMap sich kontinuierlich aktualisiert und die Referenzdatensätze zu einem bestimmten Zeitpunkt herausgegeben wurden, sind diese relative zu OpenStreetMap zum Zeitpunkt des Vergleichs nicht mehr aktuell.
+2. Der Vergleich basiert nur auf dem Verhältnis der gesamten Flächen und nicht auf der Verschneidung beziehungsweise Überlappung der einzelnen Gebäude.
+:::
 
 ## Beispiele
 
