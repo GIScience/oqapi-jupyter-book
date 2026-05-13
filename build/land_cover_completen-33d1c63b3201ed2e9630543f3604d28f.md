@@ -23,7 +23,6 @@ Er wird intrinsisch als Verhältnis der aufsummierten Fläche von OSM-Landbedeck
 Sich überlappende OSM-Landbedeckungspolygone werden mehrfach gezählt und können das Landbedeckungsvollständigkeitsverhältnis fälschlicherweise erhöhen.
 :::
 
-
 Es gibt drei Qualitätskategorien:
 - niedrige Vollständigkeit < 50%
 - mittlere Vollständigkeit 50% - 85%

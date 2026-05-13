@@ -28,6 +28,10 @@ Der Indikator ist nur für das Thema Straßen(Autos) und innerhalb der Grenzen D
 
 Du kannst pro Abfrage ein Attribut auswählen.
 
+:::{margin} Limitationen
+Da OpenStreetMap sich kontinuierlich aktualisiert und die Referenzdatensätze zu einem bestimmten Zeitpunkt herausgegeben werden, sind diese im Vergleich zu OpenStreetMap zum Zeitpunkt des Vergleiches nicht mehr aktuell.
+:::
+
 OSM-Straßen und DLM-Straßen werden mithilfe von [map-matching-2](https://github.com/addy90/map-matching-2) unter Verwendung eines auf einem Markov-Entscheidungsprozess basierenden Modells abgeglichen.
 Dadurch wird jedem DLM-Straßensegment keine, eine oder mehrere OSM-Straßensegmente zugeordnet. Falls kein OSM-Straßensegment zugewiesen werden konnte, wird das DLM-Straßensegment nicht weiter in der Kalkulation berücksichtigt. In der Ergebnisbeschreibung wird angegeben, wie viel Prozent der gesamten DLM-Straßenlänge zugwiesen werden konnte. Konnte genau ein OSM-Straßensegment dem DLM-Straßensegment zugewiesen werden, wird die gesamte Länge des DLM-Straßensegment entsprechend des untenstehenden Attributvergleichs in das Ergebnis übernommen. Wird einem DLM-Straßensegment mehrere OSM-Straßensegmente zugewiesen, wird die Länge des DLM-Straßensegment durch die Anzahl an zugewiesenen OSM-Straßensegmenten geteilt. Die so entstehende Länge wird dann entsprechend des untenstehenden Attributvergleichs für jedes OSM-Straßensegment in das Ergebnis übernommen.
 Für die abgeglichenen Straßen wird zunächst überprüft, ob jedes Attribut in beiden Datensätzen vorhanden ist. Falls dies der Fall ist,

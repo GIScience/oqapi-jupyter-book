@@ -16,6 +16,10 @@ Der Road Comparison Indicator ist nur für das *Thema* „Straßen (alle highway
 Referenzdatensatz: 
 - [Microsoft Roads](https://github.com/microsoft/RoadDetections): Der Microsoft Roads Datensatz ist ein weltweiter Straßendatensatz. Ein Machine-Learning-Ansatz wurde verwendet, um Straßen aus Satellitenbildern abzuleiten.
 
+:::{margin} Limitationen
+Da OpenStreetMap sich kontinuierlich aktualisiert und der Referenzdatensatz zu einem bestimmten Zeitpunkt herausgegeben wurde, ist dieser relative zu OpenStreetMap zum Zeitpunkt des Vergleiches nicht mehr aktuell.
+:::
+
 ## Ergebnisgrafik
 Die Ergebnisse der Abfrage findest du im Ergebnisprotokoll unten.
 Ergebnisprotokoll unten.

@@ -1,7 +1,7 @@
 # Kartierungssättigung
 
 Der Kartierungssättigung-Indikator liefert ein Maß für die Vollständigkeit.
-Es wird analysiert, wie sich das Wachstum kartierter Objekte in OSM im Laufe der Zeit einem natürlichen Maximum annähert. 
+Es wird analysiert, wie sich das Wachstum kartierter Objekte in OSM im Laufe der Zeit einem natürlichen Maximum annähert.
 
 ## Ergebnis
 

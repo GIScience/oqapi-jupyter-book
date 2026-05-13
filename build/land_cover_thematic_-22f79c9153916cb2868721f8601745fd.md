@@ -31,6 +31,9 @@ Die OSM-Elemente werden basierend auf ihren landuse=* und natural=* Tags den CLC
 - Mittlere thematische Genauigkeit (0.6 - 0.85)
 - Hohe thematische Genauigkeit (> 0.85)
 
+:::{margin} Limitationen
+Da OpenStreetMap sich kontinuierlich aktualisiert und der Referenzdatensatz zu einem bestimmten Zeitpunkt herausgegeben wurde, ist dieser relative zu OpenStreetMap zum Zeitpunkt des Vergleiches nicht mehr aktuell.
+:::
 
 #### CORINE Landbedeckungsdaten
 In seiner aktuellen Form bietet das [CORINE Land Cover (CLC)](https://land.copernicus.eu/en/products/corine-land-cover) Produkt ein europaweites Inventar von Landbedeckung und Landnutzung mit 44 thematischen Klassen, die von großflächigen Waldgebieten bis hin zu einzelnen Weinbergen reichen. CORINE verwendet eine dreistufige Nomenklatur für Land-Cover-Klassen.
@@ -59,6 +62,10 @@ Die resultierenden Polygone enthalten sowohl die OSM-CLC-Klasse als auch die COR
 | 4.2 	Feuchtflächen an der Küste                               | `landuse in (salt_pond)`                                                                                                                                                                |
 | 5.1 	Wasserflächen im Landesinneren                                   | `natural in (water, pond) or landuse in (basin, reservoir)`                                                                                                                             |
 | 5.2 	Meeresgewässer                                   | *Meeresgewässer werden in OSM nicht gemappt. Daher wird die Klasse 5.2 nie zugewiesen.*                                                                                                 |
+
+:::{margin} Limitationen
+Da OpenStreetMap sich kontinuierlich aktualisiert und der Referenzdatensatz zu einem bestimmten Zeitpunkt herausgegeben wurde, ist dieser im Vergleich zu OpenStreetMap zum Zeitpunkt des Vergleiches nicht mehr aktuell.
+:::
 
 ## Ergebnisgrafik
 Die Ergebnisse der Abfrage findest du im Ergebnisprotokoll unten.
