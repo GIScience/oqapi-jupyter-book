@@ -10,7 +10,7 @@ z.B. die offizielle [Wikiseite von OSM](https://wiki.openstreetmap.org/) genutzt
 zu den OSM-Schlüsseln ist [Taginfo](https://taginfo.openstreetmap.org/) eine sehr hilfreiche Quelle. Versuche nun
 sinnvolle OSM-Schlüssel-Wert-Paare zu finden, die für den Straßenverkehr genutzt werden.
 
-:::{info}
+:::{note}
 Für die meisten Anwendungsfälle sind die vordefinierten Themen ausreichend und ihre Benennung ist klar. Daher kann dieser
 Schritt in der Regel übersprungen werden und direkt mit der *Themenauswahl* gestartet werden.
 :::
@@ -73,7 +73,7 @@ oder im Dashboard im Themenkatalog. Finde heraus, welche Indikatoren für die vo
   - Nutzeraktivität
 :::
 
-:::{info}
+:::{note}
 In dieser Aufgabe fokussieren wir uns auf die Indikatoren *Kartierungssättigung*, *Aktualität* und *Attributvollständigkeit*.
 :::
 
@@ -84,6 +84,6 @@ Was sind hier die Unterschiede? Für die Attributvollständigkeit versuche versc
 Was kann festgestellt werden? Probiere auch die Themen für Brücken aus. Beachte, dass hier keine Attributvollständigkeit
 berechnet werden kann.
 
-:::{info}
+:::{note}
 Wenn du für deine Analyse flexibler mit OSM-Filtern arbeiten möchtest, schaue dir die Aufgabe in [Level 2](level_2.md) an 
 :::
