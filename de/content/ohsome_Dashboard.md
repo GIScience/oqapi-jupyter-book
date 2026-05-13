@@ -28,10 +28,10 @@ Das Thema *Schulen* ist beispielsweise durch diesen OSM-Tagfilter definiert: ```
 
 <img src="../abbildungen/topics_deutsch.png" width="300"/>
 
-:::{admonition} Custom Topics
+:::{admonition} Nutzerdefinierte Themen
 :class: seealso
 Du kannst *Themen* auch komplett frei definieren, z.B. wenn du nur bestimmte Straßentypen in deiner Analyse betrachten möchtest.
-Wir haben dafür eine eigene Tutorialseite angelegt → [Custom Topics](custom_topics.md)
+Wir haben dafür eine eigene Tutorialseite angelegt → [Nutzerdefinierte Themen](custom_topics.md)
 :::
 
 
