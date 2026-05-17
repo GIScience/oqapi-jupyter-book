@@ -38,9 +38,8 @@ project:
       children:
         - file: content/Exercises/level_1.md
         - file: content/Exercises/level_2.md
-        - file: content/Exercises/Level 3.ipynb
-        - file: content/Exercises/Coding Exercise.ipynb
-    
+        - file: content/Exercises/level_3.md
+
 site:
   template: book-theme
   logo: ../images/bkg_heigit_logo.png

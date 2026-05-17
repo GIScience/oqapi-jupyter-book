@@ -16,7 +16,7 @@ Das Dashboard ist in verschiedene Bereiche aufgeteilt, die unterschiedliche Schr
 
 ## Thema
 
-Im ersten Schritt, wählst du aus dem Dropdown-Menü das *Thema* aus, das du untersuchen möchtest.
+Im ersten Schritt wählst du aus dem Dropdown-Menü das *Thema* aus, das du untersuchen möchtest.
 Klickst du in das Eingabefeld, kannst du auch nach weiteren vordefinierten Themen suchen.
 
 *Themen* (auch Topics genannt) werden durch eine Menge von OSM Tags definiert, die eine bestimmte Objektart beschreiben.

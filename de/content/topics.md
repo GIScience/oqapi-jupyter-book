@@ -1,4 +1,4 @@
-# Themadefinitionen
+# Themen (Topics)
 
 Ein Thema beschreibt die Anfrage, die an die [ohsome API](https://api.ohsome.org) gestellt werden soll. 
 Jedes Thema steht für eine bestimmte Menge von Objekten, aggregierten Informationen oder Nutzerstatistiken, 
