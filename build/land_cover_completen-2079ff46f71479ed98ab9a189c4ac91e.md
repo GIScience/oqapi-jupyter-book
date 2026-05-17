@@ -8,7 +8,7 @@ Dieser Indikator ist nur für das Thema _Landnutzung und Landbedeckung_ verfügb
 
 ## Ergebnis
 Die Ergebnisse der Abfrage findest du im Ergebnisprotokoll unten.
-Die Grafik zeigt den Prozentwert der gewählten Fläche, die von OSm-Landbedeckungsdaten abgedeckt ist.
+Die Grafik zeigt den Prozentwert der gewählten Fläche, die von OSM-Landbedeckungsdaten abgedeckt ist.
 Das grüne, gelbe oder rote Banner oben links zeigt den Landbedeckungsvollständigkeit an.
 
 <img src="../../abbildungen/landbedeck_vollständigkeit_bonn.png"/>
