@@ -2,9 +2,9 @@
 
 Alle OSM Qualitätsindikatoren können auch automatisiert bzw. ohne Nutzung des ohsome Dashboard berechnet werden.
 Dafür kannst du die *ohsome quality API* direkt abfragen, z.B. mit Python.
-Die Autmoatisierung, z.B. mittels Python, ermöglicht es die OSM-Datenqualität für eine vielzahl an Regionen zu berechnen und anschließend systematisch zu vergleichen.
+Die Automatisierung, z.B. mittels Python, ermöglicht es die OSM-Datenqualität für eine Vielzahl an Regionen zu berechnen und anschließend systematisch zu vergleichen.
 
-Die [Dokumentation der API](https://api.quality.ohsome.org/v1/docs) beschreibt die einzelnen API-Endpunkte und wie diese genutzt werde können.
+Die [Dokumentation der API](https://api.quality.ohsome.org/v1/docs) beschreibt die einzelnen API-Endpunkte und wie diese genutzt werden können.
 
 ## Aktualität
 ```python
