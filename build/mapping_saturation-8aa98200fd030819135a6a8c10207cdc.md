@@ -40,7 +40,7 @@ Hier wurden _Straßen (alle highways)_ in Ansbach untersucht.
 Straßenlänge kartiert. 
 Danach wurde im Laufe der Zeit langsam weniger neue Straßenlänge hinzugefügt, 
 jedoch ist weiterhin eine kontinuierliche Kartierung erkennbar, die sich aber einer Sättigung annähert. Es kann davon 
-ausgegangen werden, dass die Kartierung von Straßen in ansbach abgeschlossen ist und nur noch kleinere Korrekturen durchgeführt werden.
+ausgegangen werden, dass die Kartierung von Straßen in Ansbach abgeschlossen ist und nur noch kleinere Korrekturen durchgeführt werden.
 
 <div>
 <img src="../../abbildungen/mapping_sat_ansbach.png" width="700"/>
@@ -62,7 +62,7 @@ eindeutig bestätigt werden.
 Dass die Qualitätseinschätzung als laufende Kartierung korrekt ist, kann anhand folgenden Beispiels erkannt werden. 
 Untersucht wurden Bäume (_Nutzerdefiniertes Thema_) in Dossenheim. Auch hier lässt sich ein stufenweiser Datenanstieg
 feststellen. Hier allerdings in deutlich kürzeren Abständen. Auch wurden erst kürzlich große Mengen neuer Bäume hinzugefügt.
-Die von der Sättigungskurve angenommene maximale Anzahl an Bäumen wurde dadurhc bereits erreicht. Es kann davon ausgegangen
+Die von der Sättigungskurve angenommene maximale Anzahl an Bäumen wurde dadurch bereits erreicht. Es kann davon ausgegangen
 werden, dass hier der Kartierungsprozess noch am Laufen ist und die Qualitätseinschätzung des Indikators nicht korrekt ist.
 
 <div>

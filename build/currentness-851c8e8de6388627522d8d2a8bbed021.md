@@ -17,7 +17,7 @@ Die Aktualität der Bearbeitungen garantiert nicht die Richtigkeit oder thematis
 
 Einige Merkmale sind möglicherweise korrekt und aktuell, wurden jedoch über einen längeren Zeitraum nicht geändert und werden fälschlicherweise als veraltet eingestuft.
 
-Die Kartierungsaktivität variiert stark zwischen Themen und Regionen und erfordert daher unterschiedliche Schwellenwerte für die Zeitstempel, um eine Aktualitätsabschätzung machen zu können. Dies ist aktuell nicht möglich.
+Die Kartierungsaktivität variiert stark zwischen Themen und Regionen und erfordert daher unterschiedliche Schwellenwerte für die Zeitstempel, um eine Aktualitätsabschätzung durchführen zu können. Dies ist aktuell nicht möglich.
 :::
 
 ## Ergebnisgrafik
@@ -25,11 +25,11 @@ Die Ergebnisse der Abfrage findest du im Ergebnisprotokoll unten.
 Ergebnisprotokoll unten.
 Das grüne, gelbe oder rote Banner oben links zeigt den Attribut-Vollständigkeitsgrad an.
 
-In der Grafik wird für jeden Monat auf der X-Achse ein Balken dargestellt. Die Höhe des Balken gibt an, wie viel Prozent der aktuell/heute vorhandenen OSM-Objekte des gewählten Themas in diesem Monat zuletzt bearbeitet wurden. Die Farbe gibt an, zu welcher der oben genannten Qualitätsstufen dieser Monat gerechnet wird. In der Legende sind die summierten Prozente für jede Qualitätsstufe. Die Y-Achse auf der linken Seite stellt die Prozentwerte dar, während die rechte Seite die absoluten Werte der entsprechenden Aggregation zeigen.
+In der Grafik wird für jeden Monat auf der X-Achse ein Balken dargestellt. Die Höhe des Balkens gibt an, wie viel Prozent der aktuell/heute vorhandenen OSM-Objekte des gewählten Themas in diesem Monat zuletzt bearbeitet wurden. Die Farbe gibt an, zu welcher der oben genannten Qualitätsstufen dieser Monat gerechnet wird. In der Legende sind die summierten Prozente für jede Qualitätsstufe. Die Y-Achse auf der linken Seite stellt die Prozentwerte dar, während die rechte Seite die absoluten Werte der entsprechenden Aggregation zeigt.
 ## Beispiel
 
 Sehen wir uns im Folgenden einige Ergebnisse des Aktualität-Indikators an. 
-Die erste Abbildung zeigt Änderungen an Objekten des Themas _Feuerwachen_ in Erding in ihrer zeitlichen Verteilung. So kann ein Ergebnis aussehen, wenn es nur sehr wenige Elemente des abgefragten Themas in dem Untersuchungsgebiet gibt, die nur selten bearbeitet werden. Wenn wir mit dem Cursor über die farbigen Linien fahren, öffnet sich ein Fenster das weitere Informationen erhält. Hier erfahren wir, dass an jedem Änderungszeitpunkt genau ein Objekt bearbeitet wurde.
+Die erste Abbildung zeigt Änderungen an Objekten des Themas _Feuerwachen_ in Erding in ihrer zeitlichen Verteilung. So kann ein Ergebnis aussehen, wenn es nur sehr wenige Elemente des abgefragten Themas in dem Untersuchungsgebiet gibt, die nur selten bearbeitet werden. Wenn wir mit dem Cursor über die farbigen Linien fahren, öffnet sich ein Fenster das weitere Informationen enthält. Hier erfahren wir, dass zu jedem Änderungszeitpunkt genau ein Objekt bearbeitet wurde.
 
 <div>
 <img src="../../abbildungen/aktualität_feuerwachen_erding.png" width="700"/>

@@ -16,7 +16,7 @@ Die Nutzeraktivität bewertet das Engagement der Beitragenden innerhalb des Unte
 In Kombination mit anderen Indikatoren sowie durch die Betrachtung absoluter Werte und von Regressionstrends lassen sich jedoch Rückschlüsse auf die Nachhaltigkeit der OSM-Community ziehen.
 
 ## Beispiel
-Dieser Indikator liefert zwar keine direkte Auskunft über die Datenqualität von OSM-Daten, aber man kann mit ihm dennoch Rückschlüsse auf die OSM-Daten schließen.
+Dieser Indikator liefert zwar keine direkte Auskunft über die Datenqualität von OSM-Daten, aber man kann mit ihm dennoch Rückschlüsse auf die OSM-Daten ziehen.
 
 <div>
 <img src="../../abbildungen/Nutzeraktivität_Heidelberg.png" width="600"/>
