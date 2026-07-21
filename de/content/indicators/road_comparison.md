@@ -22,7 +22,6 @@ Da OpenStreetMap sich kontinuierlich aktualisiert und der Referenzdatensatz zu e
 
 ## Ergebnisgrafik
 Die Ergebnisse der Abfrage findest du im Ergebnisprotokoll unten.
-Ergebnisprotokoll unten.
 Das grüne, gelbe oder rote Banner oben links zeigt den Attribut-Vollständigkeitsgrad an.
 
 Die Grafik zeigt ein Balkendiagramm der Vollständigkeit. Die graue Füllung zeigt an, wie viel Prozent der Referenzstraßen von OSM-Straßen abgedeckt werden.

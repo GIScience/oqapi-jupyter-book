@@ -32,7 +32,7 @@ Die OSM-Elemente werden basierend auf ihren landuse=* und natural=* Tags den CLC
 - Hohe thematische Genauigkeit (> 0.85)
 
 :::{margin} Limitationen
-Da OpenStreetMap sich kontinuierlich aktualisiert und der Referenzdatensatz zu einem bestimmten Zeitpunkt herausgegeben wurde, ist dieser relative zu OpenStreetMap zum Zeitpunkt des Vergleiches nicht mehr aktuell.
+Da OpenStreetMap sich kontinuierlich aktualisiert und der Referenzdatensatz zu einem bestimmten Zeitpunkt herausgegeben wurde, ist dieser relativ zu OpenStreetMap zum Zeitpunkt des Vergleiches nicht mehr aktuell.
 :::
 
 #### CORINE Landbedeckungsdaten
@@ -69,7 +69,6 @@ Da OpenStreetMap sich kontinuierlich aktualisiert und der Referenzdatensatz zu e
 
 ## Ergebnisgrafik
 Die Ergebnisse der Abfrage findest du im Ergebnisprotokoll unten.
-Ergebnisprotokoll unten.
 Das grüne, gelbe oder rote Banner oben links zeigt den Attribut-Vollständigkeitsgrad an.
 
 

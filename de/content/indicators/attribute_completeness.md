@@ -1,6 +1,6 @@
 # Attributvollständigkeit
 
-Der Attributvollständigkeits-Indikator gibt an, wie detailliert und vollständig zusätzliche Attribute, z.B. Straßennahme oder Höchstgeschwindikeit, in deinem Untersuchungsgebiet kartiert sind. Für diesen Indikator wählst du im Drop-Down-Menü ein Attribut aus, das untersucht werden soll. 
+Der Attributvollständigkeits-Indikator gibt an, wie detailliert und vollständig zusätzliche Attribute, z.B. Straßenname oder Höchstgeschwindikeit, in deinem Untersuchungsgebiet kartiert sind. Für diesen Indikator wählst du im Drop-Down-Menü ein Attribut aus, das untersucht werden soll. 
 
 :::{margin}
 <img src="../../abbildungen/attributvollständigkeit.png" width="250"/>
@@ -35,13 +35,13 @@ Es gibt drei Qualitätskategorien:
 Die Grenzwerte für die Qualitätskategorien wurden durch die Betrachtung vieler Gebiete und Attribute festgelegt und sollten nicht als objektive Metrik verstanden werden.
 
 :::{margin} Limitationen
-1. Manche Attribute in OpenStreetMap sind impliziert durch das Vorhandensein anderer Attribute. Zum Beispiel wird typischerweise die Geschwindigkeitsbegrenzung innerhalb von Spielstraßen nicht explizit kartiert, da es vom Typ der Straße abzuleiten ist. Momentan werden diese impliziten Attribute nicht berücksichtigt.
+1. Manche Attribute in OpenStreetMap sind impliziert durch das Vorhandensein anderer Attribute. Zum Beispiel wird typischerweise die Geschwindigkeitsbegrenzung innerhalb von Spielstraßen nicht explizit kartiert, da sie vom Typ der Straße abzuleiten ist. Momentan werden diese impliziten Attribute nicht berücksichtigt.
 2. Der Schwellenwert zur Einschätzung der Vollständigkeit ist für jedes Attribute der Gleiche. Dieser Schwellenwert ist jedoch vom Anwendungsfall abhängig.
 :::
 
 ## Beispiele
 
-In folgendem Beispiel sehen wir wie wichtig es ist, das richtige Thema auszuwählen. Wir wollen die Attributvollständigkeit der Straßennamen für die Frankfurter Innenstadt herausfinden.
+In folgendem Beispiel sehen wir, wie wichtig es ist, das richtige Thema auszuwählen. Wir wollen die Attributvollständigkeit der Straßennamen für die Frankfurter Innenstadt herausfinden.
 
 Auf dieser Abbildung sehen wir das Ergebnis für das Thema _Straßen(alle highways)_. Knapp 40% ist eine mittelmäßige Vollständigkeit und ein überraschendes Ergebnis für eine deutsche Großstadt. Spätestens jetzt muss uns auffallen, dass hier etwas eventuell nicht ganz stimmt. Das Thema _Straßen(alle highways)_ beinhaltet nicht nur von Autos befahrbare Straßen, sondern sämtliche Wege für motorisierten Verkehr sowie Rad- und Fußwege. Da viele Rad- und Fußwege keinen expliziten Namen haben, ist das Ergebnis der Abfrage nur knapp 40%.
 
