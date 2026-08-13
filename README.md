@@ -1,6 +1,8 @@
 # OQAPI Tutorial Book
 
-The book is online at: https://giscience.github.io/oqapi-jupyter-book/
+The book is online at: https://giscience.github.io/oqapi-jupyter-book/ (German)
+
+English version: https://giscience.github.io/oqapi-jupyter-book/en/
 
 Development is done with `uv`:
 
