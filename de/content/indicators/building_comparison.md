@@ -3,7 +3,7 @@
 Mit dem Gebäudevergleich können wir das Verhältnis der OSM-Gebäudefläche im Vergleich zu zwei Referenzdatensätzen überprüfen.
 
 :::{attention}
-Dieser Indikator ist nur für das Thema _Gebäude (Fläche)_ verfügbar.
+Dieser Indikator ist nur für das Thema _Gebäude_ verfügbar. Für die Berechnung wird ausschließlich der Aggregationstyp _Fläche_ genutzt.
 :::
 
 ## Ergebnis

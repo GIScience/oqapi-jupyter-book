@@ -4,7 +4,7 @@ With Building Comparison, we can check the ratio of OSM building area compared w
 datasets.
 
 :::{attention}
-This indicator is only available for the topic _Buildings (area)_.
+This indicator is only available for the topic _Buildings_. For computation only the _area_ aggregation type is used.
 :::
 
 ## Result
