@@ -35,7 +35,7 @@ Im Untersuchungsgebiet war die gemessene Vollständigkeit der Gebäude in OSM se
 
 
 ## Landnutzung
-Für das BKG LaVerDi Projekt nutzen wir OSM Daten um Änderungen der Landnutzung in Deutschland besser zu verstehen.
+Für das BKG LaVerDi Projekt nutzen wir OSM Daten um Änderungen der Landnutzung in Deutschland besser zu verstehen (mehr dazu [hier](https://eplus.uni-salzburg.at/agit/periodical/titleinfo/14145696)).
 Änderungen in OSM können dabei einen ersten Hinweis geben, an welchen Orten in der "realen" Welt Landnutzungsänderungen aufgetreten sind.
 Dennoch sind OSM Änderungen immer zeitlich verzögert, da es schlicht eine gewisse Zeit braucht bis Mapper eine Änderung erkennen und eintragen.
 
