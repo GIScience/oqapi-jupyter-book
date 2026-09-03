@@ -42,7 +42,7 @@ In the study area, the measured completeness of buildings in OSM was very high.
 
 
 ## Land Use
-For the BKG LaVerDi project, we use OSM data to better understand land use change in Germany.
+For the BKG LaVerDi project, we use OSM data to better understand land use change in Germany (more about this [here](https://eplus.uni-salzburg.at/agit/periodical/titleinfo/14145696)).
 Changes in OSM can give us an early indication of where land use changes have occurred in the
 "real" world.
 That said, OSM changes are always somewhat delayed, since it simply takes time for mappers to
