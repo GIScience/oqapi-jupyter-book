@@ -10,7 +10,7 @@ or for specific areas and work out whether it meets your project's requirements.
 
 :::{admonition} Dashboard URL
 :class: seealso
-https://next.ohsome-dashboard.heigit.org/en
+https://ohsome-dashboard.heigit.org/en
 :::
 
 The ohsome Dashboard lets you analyse OSM data with a full version history - no programming
