@@ -73,4 +73,4 @@ For the Road Comparison indicator, we compare OSM data and Microsoft Roads.
 
 
 ## Further Application Examples:
-* [More blog posts on OQAPI](https://heigit.org/tag/ohsome-quality-api-de/)
+* [More blog posts on OQAPI](https://heigit.org/tag/ohsome-quality-api/)
