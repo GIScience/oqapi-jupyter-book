@@ -4,7 +4,7 @@ Alle OSM Qualitätsindikatoren können auch automatisiert bzw. ohne Nutzung des 
 Dafür kannst du die *ohsome quality API* direkt abfragen, z.B. mit Python.
 Die Automatisierung, z.B. mittels Python, ermöglicht es die OSM-Datenqualität für eine Vielzahl an Regionen zu berechnen und anschließend systematisch zu vergleichen.
 
-Die [Dokumentation der API](https://api.quality.ohsome.org/v1/docs) beschreibt die einzelnen API-Endpunkte und wie diese genutzt werden können.
+Die [Dokumentation der API]([https://api.quality.ohsome.org/v1/docs) beschreibt die einzelnen API-Endpunkte und wie diese genutzt werden können.
 
 ## Aktualität
 ```python
@@ -17,13 +17,16 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import sys
 
+# füge hier deinen HeiGIT-API-Key ein
+api_key="YOUR_API_KEY"
+
 indicator = "/currentness"
 topic = "land-cover"
 input_geom_path = "friedberg.geojson"
 output_geom_path = "your_output_layer.gpkg"
 max_workers = 20
 
-base_url = "https://api.quality.ohsome.org/v1-test"
+base_url = "https://api.heigit.org/ohsome-quality-api/v2"
 endpoint = "/indicators"
 url = base_url + endpoint + indicator
 
@@ -31,7 +34,7 @@ gdf = gpd.read_file(input_geom_path)
 gdf["result_value"] = pd.Series([None] * len(gdf), dtype="float")
 gdf["response_time"] = pd.Series([None] * len(gdf), dtype="float")
 
-headers = {"accept": "application/json"}
+headers = {"accept": "application/json", "authorization": api_key}
 
 def fetch(index, geometry):
     bpolys = geojson.Feature(geometry=geometry)
@@ -90,6 +93,9 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import sys
 
+# füge hier deinen HeiGIT-API-Key ein
+api_key="YOUR_API_KEY"
+
 indicator = "/attribute-completeness"
 topic = "roads"
 input_geom_path = "your_bounding_box.geojson"
@@ -98,7 +104,7 @@ max_workers = 20
 
 
 
-base_url = "https://api.quality.ohsome.org/v1-test"
+base_url = "https://api.heigit.org/ohsome-quality-api/v2"
 endpoint = "/indicators"
 url = base_url + endpoint + indicator
 
