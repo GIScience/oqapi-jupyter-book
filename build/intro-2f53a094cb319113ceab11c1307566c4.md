@@ -11,7 +11,7 @@ oder für bestimmte Gebiete bewerten kannst und feststellen kannst, ob sie den A
 
 :::{admonition} Dashboard URL
 :class: seealso
-https://next.ohsome-dashboard.heigit.org/de
+https://ohsome-dashboard.heigit.org/de/
 :::
 
 Das ohsome Dashboard ermöglicht die Analyse von OSM-Daten mit vollständiger Versionshistorie - ganz ohne
