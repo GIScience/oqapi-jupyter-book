@@ -17,9 +17,11 @@ Schaltfläche „Durchsuche Themenkatalog“ direkt neben dem Themafeld klicken.
 Die OSM-Daten werden anhand eines Aggregationstypen zusammengefasst. Jedes Thema besitzt genau einen zugewiesenen 
 Aggregationstyp. Aggregationstyp *Anzahl* zählt jedes einzelne Element, *Länge* rechnet die geographische Länge aller
 Elemente zusammen und *Fläche* entsprechend die geographische Fläche der Elemente. Nur der Aktualitäts-, 
-Kartierungssättigungs- und der Attributvollständigkeitsindikator berücksichtigen aktuell den Aggregationstypen.
+Kartierungssättigungs- und der Attributvollständigkeitsindikator berücksichtigen aktuell den Aggregationstypen. Der 
+Aggregationstype für ein Thema kann verändert werden, indem es bearbeitet wird/ zu einem Nutzerdefiniertem Thema geändert wird
+(mehr unter [Nutzerdefinierte Themen](./custom_topics.md)).
 
-:::{dropdown} Gebäude (Anzahl)
+:::{dropdown} Gebäude
 
 - **Beschreibung:** Alle Gebäude, definiert durch alle Objekte mit dem Tag `building=*`.
 - **Filter:** `building=* and building!=no and geometry:polygon`
@@ -28,24 +30,9 @@ Kartierungssättigungs- und der Attributvollständigkeitsindikator berücksichti
   - Kartierungssättigung
   - Aktualität
   - Attributvollständigkeit
-  - Nutzeraktivität  
-  :::
-
----
-
-:::{dropdown} Gebäude (Fläche)
-
-- **Beschreibung:** Alle Gebäude, definiert durch alle Objekte mit dem Tag `building=*`.
-- **Filter:** `building=* and building!=no and geometry:polygon`
-- **Aggregation:** Fläche
-- **Indikatoren:**
-  - Kartierungssättigung
-  - Aktualität
   - Gebäudevergleich
   - Nutzeraktivität  
   :::
-
----
 
 :::{dropdown} Straßen (alle highways)
 
@@ -84,6 +71,7 @@ Kartierungssättigungs- und der Attributvollständigkeitsindikator berücksichti
 - **Aggregation:** Länge
 - **Indikatoren:**
   - Kartierungssättigung
+  - Attributvollständigkeit
   - Aktualität
   - Nutzeraktivität  
   :::
@@ -97,6 +85,7 @@ Kartierungssättigungs- und der Attributvollständigkeitsindikator berücksichti
 - **Aggregation:** Länge
 - **Indikatoren:**
   - Kartierungssättigung
+  - Attributvollständigkeit
   - Aktualität
   - Nutzeraktivität  
   :::
@@ -110,24 +99,10 @@ Kartierungssättigungs- und der Attributvollständigkeitsindikator berücksichti
 - **Aggregation:** Länge
 - **Indikatoren:**
   - Kartierungssättigung
+  - Attributvollständigkeit
   - Aktualität
   - Nutzeraktivität  
   :::
-
----
-
-:::{dropdown} Brücken (Anzahl)
-
-- **Beschreibung:** Anzahl aller als Brücke gekennzeichneten Polygone.
-- **Filter:** `man_made=bridge and geometry:polygon`
-- **Aggregation:** Anzahl
-- **Indikatoren:**
-  - Kartierungssättigung
-  - Aktualität
-  - Nutzeraktivität  
-  :::
-
----
 
 :::{dropdown} Radweg
 
@@ -136,6 +111,7 @@ Kartierungssättigungs- und der Attributvollständigkeitsindikator berücksichti
 - **Aggregation:** Länge
 - **Indikatoren:**
   - Kartierungssättigung
+  - Attributvollständigkeit
   - Aktualität
   - Nutzeraktivität  
   :::
@@ -177,6 +153,7 @@ Kartierungssättigungs- und der Attributvollständigkeitsindikator berücksichti
 - **Aggregation:** Länge
 - **Indikatoren:**
   - Kartierungssättigung
+  - Attributvollständigkeit
   - Aktualität
   - Nutzeraktivität  
   :::
@@ -190,6 +167,7 @@ Kartierungssättigungs- und der Attributvollständigkeitsindikator berücksichti
 - **Aggregation:** Anzahl
 - **Indikatoren:**
   - Kartierungssättigung
+  - Attributvollständigkeit
   - Aktualität
   - Nutzeraktivität  
   :::
@@ -366,9 +344,9 @@ Kartierungssättigungs- und der Attributvollständigkeitsindikator berücksichti
 
 :::{dropdown} Wälder
 
-- **Beschreibung:** Anzahl der Wälder.
+- **Beschreibung:** Fläche der Wälder.
 - **Filter:** `landuse=forest and geometry:polygon`
-- **Aggregation:** Anzahl
+- **Aggregation:** Fläche
 - **Indikatoren:**
   - Kartierungssättigung
   - Aktualität
@@ -376,28 +354,15 @@ Kartierungssättigungs- und der Attributvollständigkeitsindikator berücksichti
   - Nutzeraktivität  
   :::
 
----
 
-:::{dropdown} Industrieflächen (Anzahl)
+:::{dropdown} Industrieflächen
 
-- **Beschreibung:** Industrieflächen (Anzahl).
-- **Filter:** `landuse=industrial and type:way`
-- **Aggregation:** Anzahl
-- **Indikatoren:**
-  - Kartierungssättigung
-  - Aktualität
-  - Nutzeraktivität  
-  :::
-
----
-
-:::{dropdown} Industrieflächen (Fläche)
-
-- **Beschreibung:** Industrieflächen (Fläche).
+- **Beschreibung:** Flächen der Industrieflächen.
 - **Filter:** `landuse=industrial and type:way`
 - **Aggregation:** Fläche
 - **Indikatoren:**
   - Kartierungssättigung
+  - Attributvollständigkeit
   - Aktualität
   - Nutzeraktivität  
   :::
@@ -425,6 +390,7 @@ Kartierungssättigungs- und der Attributvollständigkeitsindikator berücksichti
 - **Aggregation:** Anzahl
 - **Indikatoren:**
   - Kartierungssättigung
+  - Attributvollständigkeit
   - Aktualität
   - Nutzeraktivität  
   :::
@@ -439,6 +405,7 @@ Kartierungssättigungs- und der Attributvollständigkeitsindikator berücksichti
 - **Indikatoren:**
   - Kartierungssättigung
   - Aktualität
+  - Attributvollständigkeit
   - Thematische Genauigkeit (Landbedeckung)
   - Landbedeckungsvollständigkeit
   - Nutzeraktivität  

@@ -18,29 +18,17 @@ OSM data is summarised using an aggregation type. Each topic has exactly one ass
 type. The *Count* aggregation type counts each individual feature, *Length* adds up the geographic
 length of all features, and *Area* adds up the geographic area of the features accordingly.
 Currently, only the Currentness, Mapping Saturation and Attribute Completeness indicators take the
-aggregation type into account.
+aggregation type into account. The aggregation type of a topic can be changed, when it is modified / changed to a custom
+topic (more at [Custom Topics](./custom_topics.md)).
 
-:::{dropdown} Buildings (count)
+:::{dropdown} Buildings
 
 - **Description:** All buildings, defined by all features tagged `building=*`.
 - **Filter:** `building=* and building!=no and geometry:polygon`
 - **Aggregation:** Count
 - **Indicators:**
   - Mapping Saturation
-  - Currentness
   - Attribute Completeness
-  - User Activity
-  :::
-
----
-
-:::{dropdown} Buildings (area)
-
-- **Description:** All buildings, defined by all features tagged `building=*`.
-- **Filter:** `building=* and building!=no and geometry:polygon`
-- **Aggregation:** Area
-- **Indicators:**
-  - Mapping Saturation
   - Currentness
   - Building Comparison
   - User Activity
@@ -87,6 +75,7 @@ aggregation type into account.
 - **Aggregation:** Length
 - **Indicators:**
   - Mapping Saturation
+  - Attribute Completeness
   - Currentness
   - User Activity
   :::
@@ -100,6 +89,7 @@ aggregation type into account.
 - **Aggregation:** Length
 - **Indicators:**
   - Mapping Saturation
+  - Attribute Completeness
   - Currentness
   - User Activity
   :::
@@ -113,24 +103,10 @@ aggregation type into account.
 - **Aggregation:** Length
 - **Indicators:**
   - Mapping Saturation
+  - Attribute Completeness
   - Currentness
   - User Activity
   :::
-
----
-
-:::{dropdown} Bridges (count)
-
-- **Description:** Count of all polygons labelled as a bridge.
-- **Filter:** `man_made=bridge and geometry:polygon`
-- **Aggregation:** Count
-- **Indicators:**
-  - Mapping Saturation
-  - Currentness
-  - User Activity
-  :::
-
----
 
 :::{dropdown} Cycleway
 
@@ -140,6 +116,7 @@ aggregation type into account.
 - **Aggregation:** Length
 - **Indicators:**
   - Mapping Saturation
+  - Attribute Completeness
   - Currentness
   - User Activity
   :::
@@ -183,6 +160,7 @@ aggregation type into account.
 - **Aggregation:** Length
 - **Indicators:**
   - Mapping Saturation
+  - Attribute Completeness
   - Currentness
   - User Activity
   :::
@@ -196,6 +174,7 @@ aggregation type into account.
 - **Aggregation:** Count
 - **Indicators:**
   - Mapping Saturation
+  - Attribute Completeness
   - Currentness
   - User Activity
   :::
@@ -372,9 +351,9 @@ aggregation type into account.
 
 :::{dropdown} Forests
 
-- **Description:** Count of forests.
+- **Description:** Area of forests.
 - **Filter:** `landuse=forest and geometry:polygon`
-- **Aggregation:** Count
+- **Aggregation:** Area
 - **Indicators:**
   - Mapping Saturation
   - Currentness
@@ -382,28 +361,14 @@ aggregation type into account.
   - User Activity
   :::
 
----
+:::{dropdown} Industrial Landuse
 
-:::{dropdown} Industrial Landuse (count)
-
-- **Description:** Industrial landuse sites (count).
-- **Filter:** `landuse=industrial and type:way`
-- **Aggregation:** Count
-- **Indicators:**
-  - Mapping Saturation
-  - Currentness
-  - User Activity
-  :::
-
----
-
-:::{dropdown} Industrial Landuse (area)
-
-- **Description:** Industrial landuse sites (area).
+- **Description:** Area of industrial landuse sites.
 - **Filter:** `landuse=industrial and type:way`
 - **Aggregation:** Area
 - **Indicators:**
   - Mapping Saturation
+  - Attribute Completeness
   - Currentness
   - User Activity
   :::
@@ -444,6 +409,7 @@ aggregation type into account.
 - **Aggregation:** Area
 - **Indicators:**
   - Mapping Saturation
+  - Attribute Completeness
   - Currentness
   - Land Cover Thematic Accuracy
   - Land Cover Completeness

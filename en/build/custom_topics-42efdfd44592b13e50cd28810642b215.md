@@ -9,5 +9,6 @@ follows this pattern: *\<tag\>=\<value\> and geometry:\<point|line|polygon\>*. A
 choose any other topic and press the blue button next to the topic field (see 2 in the figure
 below). This switches the topic to "Custom Topic" as described above. The ohsome filter of
 the previously selected topic remains in the field, though, and can now be edited.
+Additionally, the predefined aggregation type can be changed.
 
 <img src="../abbildungen/custom_topics.png" width="600"/>

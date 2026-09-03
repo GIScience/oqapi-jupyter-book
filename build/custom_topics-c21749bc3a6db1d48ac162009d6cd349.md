@@ -9,5 +9,6 @@ diesem Schema: *<tag>=<value> and geometry:<point|line|polygon>*. Alternativ kan
 werden und der blaue Knopf neben dem Themafeld gedrückt werden (siehe 2 in untenstehnder Abbildung). Dadurch wechselt
 das Thema zu "anpassbares Thema" wie oben beschrieben. Der ohsome-Filter des zuvor gewählten Themas bleibt aber im Feld
 erhalten und kann nun bearbeitet werden.
+Ebenso kann der vordefinierte Aggregationstyp gewechselt werden.
 
 <img src="../abbildungen/custom_topics.png" width="600"/>
